@@ -1,0 +1,31 @@
+*.container {
+	position: relative;
+}
+	
+*.default {
+	text-align: center;
+	background-color: gray;
+}
+
+*.box {
+	float: left;
+	overflow: auto;
+	visibility: visible;
+	width: 220px;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: gold;
+	border-top: 5px solid gray;
+	border-bottom: 5px solid black;
+	border-left: 5px solid gray;
+	border-right: 5px solid black;
+}
+
+*.small {
+	width: 75px;
+	height: auto;
+}
+
+/* Non-essential rules are not shown. */
