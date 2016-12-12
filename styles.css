@@ -7,6 +7,7 @@ p {
 }
 
 *.static-inline-shrinkwrapped {
+	display: inline-block;
 	width: auto;
 }
 
@@ -20,4 +21,67 @@ p {
 
 *.replaced-inline-stretched {
 	width: 100px;
+}
+
+*.static-block-sized {
+	display: block;
+	width: 300px;
+}
+
+*.static-block-stretched {
+	display: block;
+	width: auto;
+}
+
+*.table-shrinkwrapped {
+	display: table;
+	width: auto;
+}
+
+*.table-sized {
+	display: table;
+	width: 300px;
+}
+
+*.table-stretched {
+	display: table;
+	width: 100%;
+}
+
+*.float-shrinkwrapped {
+	width: auto;
+	float: left;
+}
+
+*.float-sized {
+	width: 300px;
+	float: left;
+	clear: both;
+}
+
+*.float-stretched {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+*.absolute-shrinkwrapped {
+	position: absolute;
+	width: auto;
+	left: 0;
+	right: auto;
+}
+
+*.absolute-sized {
+	width: 300px;
+	left: 0;
+	right: auto;
+	position: absolute;
+}
+
+*.absolute-stretched {
+	width: auto;
+	left: 0;
+	right: auto;
+	position: absolute;
 }
