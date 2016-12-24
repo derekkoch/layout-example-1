@@ -1,87 +1,46 @@
-*.container {
+*.gp {
+	border: 3px solid black;
+	padding: 5px;
+}
+
+*.parent {
 	border: 1px solid black;
-}
-	
-p {
-	background-color: grey;
+	padding: 5px;
 }
 
-*.static-inline-shrinkwrapped {
-	display: inline-block;
-	width: auto;
+*.z {
+	padding: 5px;
+	border: 5px solid black;
 }
 
-*.replaced-inline-shrinkwrapped {
-	width: auto;
+#float {
+	float: right;
+	margin-top: 10px;
+	width: 150px;
+	height: 50px;
 }
 
-*.replaced-inline-sized {
-	width: 35px;
+#static {
+	position: static;
+	width: 150px;
+	height: 50px;
+	margin-bottom: 10px;
 }
 
-*.replaced-inline-stretched {
-	width: 100px;
+#table {
+	width: 150px;
+	height: 50px;
 }
 
-*.static-block-sized {
-	display: block;
-	width: 300px;
-}
-
-*.static-block-stretched {
-	display: block;
-	width: auto;
-}
-
-*.table-shrinkwrapped {
-	display: table;
-	width: auto;
-}
-
-*.table-sized {
-	display: table;
-	width: 300px;
-}
-
-*.table-stretched {
-	display: table;
-	width: 100%;
-}
-
-*.float-shrinkwrapped {
-	width: auto;
-	float: left;
-}
-
-*.float-sized {
-	width: 300px;
-	float: left;
-	clear: both;
-}
-
-*.float-stretched {
-	width: 100%;
-	float: left;
-	clear: both;
-}
-
-*.absolute-shrinkwrapped {
+#abs {
 	position: absolute;
-	width: auto;
-	left: 0;
-	right: auto;
+	margin-left: 50px;
+	width: 150px;
+	height: 50px;
 }
 
-*.absolute-sized {
-	width: 300px;
-	left: 0;
-	right: auto;
-	position: absolute;
-}
-
-*.absolute-stretched {
-	width: auto;
-	left: 0;
-	right: auto;
-	position: absolute;
+#star {
+	margin-left: auto;
+	width: 26px;
+	height: 26px;
 }

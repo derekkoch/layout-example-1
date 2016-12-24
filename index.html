@@ -10,64 +10,17 @@
 	</head>
 
 	<body>
-		<h1>Width</h1>
+		<h1>Sized</h1>
 
-		<div class="container">
-			<div class="static-inline-shrinkwrapped"> 
-				<p>Static Inline Shrinkwrapped Element</p>
+		<div class="gp">Positioned Grandparent
+			<div class="parent">Non-positioned parent
+				<div id="float" class="z">Sized Float</div>
+				<div id="static" class="z">Sized Static</div>
+				<table id="table" class="z"><tr><td>Sized Table</td></tr></table>
+				<span id="abs" class="z">Sized Absolute
+					<img id="star" src="star.gif" alt="star" />
+				</span>
 			</div>
-
-			<img class="replaced-inline-shrinkwrapped" src="star.jpeg" />
-			
-			<img class="replaced-inline-sized"src="star.jpeg" />
-
-			<img class="replaced-inline-stretched" src="star.jpeg" />
-
-			<div class="static-block-sized">
-				<p>Static Block Sized</p>
-			</div>
-
-			<div class="static-block-stretched">
-				<p>Static Block Stretched Auto</p>
-			</div>
-
-			<div class="table-shrinkwrapped">
-				<p>Table Shrinkwrapped</p>
-			</div>
-
-			<div class="table-sized">
-				<p>Table Sized</p>
-			</div>
-
-			<div class="table-stretched">
-				<p>Table Stretched 100%</p>
-			</div>
-
-			<div class="float-shrinkwrapped">
-				<p>Float Shrinkwrapped</p>
-			</div>
-
-			<div class="float-sized">
-				<p>Float Sized</p>
-			</div>
-
-			<div class="float-stretched">
-				<p>Float Stretched 100%</p>
-			</div>
-
-			<div class="absolute-shrinkwrapped">
-				<p>Absolute Shrinkwrapped</p>
-			</div>
-
-			<div class="absolute-sized">
-				<p>Absolute Sized</p>
-			</div>
-
-			<div class="absolute-stretched">
-				<p>Absolute Stretched Auto</p>
-			</div>
-
 		</div>
-
 	</body>
 </html>
