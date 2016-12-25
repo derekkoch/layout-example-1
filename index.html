@@ -10,16 +10,17 @@
 	</head>
 
 	<body>
-		<h1>Shrinkwrapped</h1>
+		<h1>Stretched</h1>
 
 		<div class="gp">Positioned Grandparent
-			<div class="parent">Non-positioned parent
-				<span id="float" class="z">Shrinkwrapped Float</span>
-				<span id="inline" class="z">Shrinkwrapped Static Inline</span>
-				<img id="star" src="star.gif" alt="star" />
-				<div id="block" class="z">Vertically Shrinkwrapped Static Block</div>
-				<table id="table" class="z"><tr><td>Shrinkwrapped Table</td></tr></table>
-				<span id="abs" class="z">Shrinkwrapped Absolute</span>
+			<div class="parent">Non-positioned Parent
+				<span id="inline" class="s">Cannot stretch a static line</span>
+				<div class="sized"><img id="star" src="star.gif" alt="star" /></div>
+				<div id="block" class="s">Horizontally Stretched Static Block</div>
+				<table id="table" class="s"><tr><td>Horiz. Stretched Table</td></tr></table>
+				<div id="abs-v" class="s">Vertically Stretched Absolute</div>
+				<span id="abs-v" class="s">Horizontally Stretched Absolute</span>
+				<span id="float" class="s">Almost Stretched Float</span>
 			</div>
 		</div>
 	</body>
