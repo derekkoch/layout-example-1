@@ -1,52 +1,25 @@
-*.gp {
-	border: 3px solid black;
-	padding: 5px;
+*.container {
+	display: inline-block;
 }
 
-*.parent {
+*.outline {
 	border: 1px solid black;
-	padding: 5px;
+	width: 200px;
+	height: 400px;
 }
 
-*.s {
-	padding: 5px;
-	border: 5px solid black;
+*.before {
+	margin: 0;
 	background-color: gray;
 }
 
-#star {
-	width: 100%;
-	height: 100%;
+*.after {
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	margin-right: 10px;
+	background-color: gray;
 }
-
-#block {
-	width: auto;
-}
-
-#table {
-	width: 100%;
-}
-
-#abs-v {
-	position: absolute;
-	height: auto;
-	top: 0;
-	bottom: 0;
-}
-
-#abs-h {
-	position: absolute;
-	width: auto;
-	height: 50px;
-	left: 0;
-	right: 0;
-}
-
-#float {
-	float: left;
-	width: 100%;
-}
-
 
 
 
