@@ -1,25 +1,58 @@
-*.container {
-	display: inline-block;
+p {
+	margin-left: 240px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
-*.outline {
-	border: 1px solid black;
-	width: 200px;
-	height: 400px;
+span {
+	margin-left: -230px;
+	margin-right: 30px;
+	padding-left: 195px;
+	font-size: 19px;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-image: url("star.png");
 }
 
-*.before {
-	margin: 0;
-	background-color: gray;
+*.no-bg {
+	background-image: none;
+	background-color: transparent;
 }
 
-*.after {
-	margin-top: 10px;
-	margin-bottom: 0;
-	margin-left: 30px;
-	margin-right: 10px;
-	background-color: gray;
+*.bg-color {
+	background-image: none;
+	background-color: black;
+}
+
+*.bg-image {
+	background-repeat: no-repeat;
 }
 
 
+*.bg-repeat {
+	background-repeat: repeat;
+}
 
+*.bg-rx {
+	background-repeat: repeat-x;
+}
+
+*.bg-pos-lt {
+	background-position: center center;
+}
+
+*.bg-pos-rb {
+	background-position: right top;
+}
+
+*.bg-ry {
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding-left: 22px;
+	float: right;
+	height: 263px;
+	margin: 0px;
+	position: relative;
+	top: -170px;
+}
