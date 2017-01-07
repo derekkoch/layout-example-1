@@ -10,56 +10,13 @@
 	</head>
 
 	<body>
-		<div id="container ex1">
-			<h1><code>overflow:visible</code></h1>
-			<p class="ex1">
-				<span class="big">OVERFLOW</span> <br />
-				<span class="nowrap">The text in this span does not wrap!</span><br />
-				<select size="2">
-					<option>select me</option>
-					<option selected="selected">select me</option>
-				</select><br />
-				<span>Vertical Overflow</span>
-			</p>
-		</div>
+		<h1>Visibility</h1>
 
-		<div id="container ex2">
-			<h1><code>overflow:hidden</code></h1>
-			<p class="ex2">
-				<span class="big">OVERFLOW</span> <br />
-				<span class="nowrap">The text in this span does not wrap!</span><br />
-				<select size="2">
-					<option>select me</option>
-					<option selected="selected">select me</option>
-				</select><br />
-				<span>Vertical Overflow</span>
-			</p>
-		</div>
+		<p>There is hidden content here: <span class="hidden">CAN YOU SEE ME NOW?<span>ME TOO?</span></span> 
+		You can't see it, because it's styled with <code>visibility: hidden</code>, but you 
+		can see where it would have been rendered.</p>
 
-		<div id="container ex3">
-			<h1><code>overflow:scroll</code></h1>
-			<p class="ex3">
-				<span class="big">OVERFLOW</span> <br />
-				<span class="nowrap">The text in this span does not wrap!</span><br />
-				<select size="2">
-					<option>select me</option>
-					<option selected="selected">select me</option>
-				</select><br />
-				<span>Vertical Overflow</span>
-			</p>
-		</div>
-
-		<div id="container ex4">
-			<h1><code>overflow:auto</code></h1>
-			<p class="ex4">
-				<span class="big">OVERFLOW</span> <br />
-				<span class="nowrap">The text in this span does not wrap!</span><br />
-				<select size="2">
-					<option>select me</option>
-					<option selected="selected">select me</option>
-				</select><br />
-				<span>Vertical Overflow</span>
-			</p>
-		</div>
+		<p>There is visible content here: <span class="visible">CAN YOU SEE ME NOW?<span>ME TOO?</span></span>
+		You can see it, because it's styled with <code>visibility: visible</code>.</p>
 	</body>
 </html>

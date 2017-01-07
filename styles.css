@@ -1,46 +1,29 @@
-
-div {
-	height: 300px;
-	width: 300px;
-	display: inline-block;
-	margin-right: 50px;
-}
-
 p {
-	border: 1px black solid;
-	height: 200px;
-	width: 200px;
-}
-
-select {
-	width: 300px;
-}
-
-*.big {
-	font-size: 50px;
-	text-transform: capitalize;
-	font-family: arial;
-}
-
-*.nowrap {
-	white-space: nowrap;	
-}
-
-*.ex1 {
-	overflow: visible;
-}
-
-*.ex2 {
-	overflow: hidden;
-	margin-right: 0;
-}
-
-*.ex3 {
-	overflow: scroll;
-	margin-left: 0;
-}
-
-*.ex4 {
+	background-color: gold;
+	padding: 10px;
+	height: 6em;
+	line-height: 1.5em;
+	width: 35em;
 	overflow: auto;
-	margin-right: 0;
+}
+
+span {
+	padding: 4px;
+	background-color: white;
+	border-left: 1px solid gray;
+	border-right: 2px solid black;
+	border-top: 1px solid gray;
+	border-bottom: 2px solid black;
+}
+
+*.hidden {
+	visibility: hidden;
+}
+
+*.visible {
+	visibility: visible;
+}
+
+span:hover {
+	visibility: hidden;
 }
