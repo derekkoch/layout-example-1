@@ -1,58 +1,46 @@
+
+div {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin-right: 50px;
+}
+
 p {
-	margin-left: 240px;
-	margin-top: 0px;
-	margin-bottom: 10px;
+	border: 1px black solid;
+	height: 200px;
+	width: 200px;
 }
 
-span {
-	margin-left: -230px;
-	margin-right: 30px;
-	padding-left: 195px;
-	font-size: 19px;
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-color: black;
-	background-image: url("star.png");
+select {
+	width: 300px;
 }
 
-*.no-bg {
-	background-image: none;
-	background-color: transparent;
+*.big {
+	font-size: 50px;
+	text-transform: capitalize;
+	font-family: arial;
 }
 
-*.bg-color {
-	background-image: none;
-	background-color: black;
+*.nowrap {
+	white-space: nowrap;	
 }
 
-*.bg-image {
-	background-repeat: no-repeat;
+*.ex1 {
+	overflow: visible;
 }
 
-
-*.bg-repeat {
-	background-repeat: repeat;
+*.ex2 {
+	overflow: hidden;
+	margin-right: 0;
 }
 
-*.bg-rx {
-	background-repeat: repeat-x;
+*.ex3 {
+	overflow: scroll;
+	margin-left: 0;
 }
 
-*.bg-pos-lt {
-	background-position: center center;
-}
-
-*.bg-pos-rb {
-	background-position: right top;
-}
-
-*.bg-ry {
-	background-repeat: repeat-y;
-	background-position: center top;
-	padding-left: 22px;
-	float: right;
-	height: 263px;
-	margin: 0px;
-	position: relative;
-	top: -170px;
+*.ex4 {
+	overflow: auto;
+	margin-right: 0;
 }
