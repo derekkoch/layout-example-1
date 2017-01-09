@@ -1,29 +1,55 @@
-p {
+*.section {
 	background-color: gold;
-	padding: 10px;
-	height: 6em;
-	line-height: 1.5em;
-	width: 35em;
-	overflow: auto;
+}
+
+*.outline {
+	border-left: 1px gray solid;
+	border-top: 1px gray solid;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
+}
+
+p {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 span {
-	padding: 4px;
-	background-color: white;
-	border-left: 1px solid gray;
-	border-right: 2px solid black;
-	border-top: 1px solid gray;
-	border-bottom: 2px solid black;
+	background-color: lightgray;
+
 }
 
-*.hidden {
-	visibility: hidden;
+*.centered {
+	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-*.visible {
-	visibility: visible;
+*.static {
+	position: static;
 }
 
-span:hover {
-	visibility: hidden;
+*.absolute {
+	position: absolute;
+	top: 20px;
+	left: 215px;
 }
+
+*.fixed {
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+}
+
+*.relative {
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+
+*.float {
+	float: right;
+}
+
