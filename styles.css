@@ -1,30 +1,15 @@
-*.section {
+#section {
 	background-color: gold;
 }
 
-*.outline {
+div, p, em {
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
 	border-left: 1px gray solid;
 	border-top: 1px gray solid;
 	border-right: 2px black solid;
 	border-bottom: 2px black solid;
-}
-
-p {
-	background-color: white;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-span {
-	background-color: lightgray;
-
-}
-
-*.centered {
-	width: 380px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 *.static {
@@ -33,23 +18,34 @@ span {
 
 *.absolute {
 	position: absolute;
-	top: 20px;
-	left: 215px;
+	top: -40px;
+	left: 35%;
 }
 
-*.fixed {
+*.fixed1 {
 	position: fixed;
-	bottom: 20px;
+	z-index: 20;
+	bottom: 35px;
 	right: 5px;
+}
+
+*.fixed2 {
+	position: fixed;
+	z-index: 10;
+	bottom: 0px;
+	right: 0px;
 }
 
 *.relative {
 	position: relative;
-	top: 20px;
-	left: 30px;
+	top: auto;
+	left: auto;
+	bottom: auto;
+	right: auto;
 }
 
-*.float {
-	float: right;
+*.offset {
+	bottom: -15px;
+	left: -20px;
 }
 
