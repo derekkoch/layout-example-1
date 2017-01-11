@@ -1,15 +1,39 @@
-#section {
-	background-color: gold;
+*.ggp, *.gp, *.parent {
+	border: 1px solid gray;
+	width: 90%;
+	margin: 10px;
 }
 
-div, p, em {
-	margin: 10px;
-	padding: 10px;
-	background-color: white;
-	border-left: 1px gray solid;
-	border-top: 1px gray solid;
-	border-right: 2px black solid;
-	border-bottom: 2px black solid;
+*.ggp {
+	height: 300px;
+}
+
+*.gp {
+	height: 80%;
+}
+
+*.parent {
+	height: auto;
+}
+
+*.sized {
+	height: 70px;
+	width: 230px;
+}
+
+*.bottom-right {
+	bottom: 0;
+	right: 0;
+}
+
+*.box1 {
+	border: 3px black solid;
+	background-color: gray;
+}
+
+*.box2 {
+	border: 1px solid black;
+	background-color: lightgray;
 }
 
 *.static {
@@ -18,34 +42,14 @@ div, p, em {
 
 *.absolute {
 	position: absolute;
-	top: -40px;
-	left: 35%;
-}
-
-*.fixed1 {
-	position: fixed;
-	z-index: 20;
-	bottom: 35px;
-	right: 5px;
-}
-
-*.fixed2 {
-	position: fixed;
-	z-index: 10;
-	bottom: 0px;
-	right: 0px;
 }
 
 *.relative {
 	position: relative;
-	top: auto;
-	left: auto;
-	bottom: auto;
-	right: auto;
 }
 
 *.offset {
-	bottom: -15px;
-	left: -20px;
+	top: 30px;
+	left: 45px;
 }
 
