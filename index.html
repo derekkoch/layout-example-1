@@ -10,19 +10,18 @@
 	</head>
 
 	<body>
-		<h1>Closest Positioned Ancestor</h1>
+		<h1>Static</h1>
 
-		<div class="static ggp">Non-positioned Great-grandparent
-			<div class="absolute sized bottom-right box1">Absolute #1 Bottom Right
-				<em class="absolute offset box2">Nested Absolute</em>
-			</div>
-			<div class="relative gp">Positioned Grandparent
-				<div class="static parent">Non-positioned Parent
-					<span class="absolute sized bottom-right box1">Absolute #2 Bottom Right
-					<em class="absolute offset box2">Nested Absolute</em></span>
+		<div class="gp">Positioned Grandparent
+			<div class="parent">Non-positioned Parent
+				<div id="rs" class="box">Sized Static Block</div>
+				<div id="ss" class="box">Stretched Static Block</div>
+				<div class="box">
+					<span>Shrinkwrapped Static Inline</span>
+					<span>Shrinkwrapped Static Inline</span>
+					<span>Shrinkwrapped Static Inline</span>
 				</div>
 			</div>
 		</div>
-
 	</body>
 </html>
