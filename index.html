@@ -10,17 +10,15 @@
 	</head>
 
 	<body>
-		<h1>Static</h1>
+		<h1>Absolute</h1>
 
-		<div class="gp">Positioned Grandparent
-			<div class="parent">Non-positioned Parent
-				<div id="rs" class="box">Sized Static Block</div>
-				<div id="ss" class="box">Stretched Static Block</div>
-				<div class="box">
-					<span>Shrinkwrapped Static Inline</span>
-					<span>Shrinkwrapped Static Inline</span>
-					<span>Shrinkwrapped Static Inline</span>
-				</div>
+		<div class="gp"><h2>Positioned Grandparent</h2>
+			<div class="parent"><h2>Non-positioned Parent</h2>
+				Absolute elements are positioned in their own layer in front of or behind the normal flow.
+				<span id="in-place" class="box">In-place Absolute</span>
+				<span id="sized" class="box">Sized Absolute</span>
+				<p id="stretched" class="box">Stretched Absolute</p>
+				<p id="shrinkwrapped" class="box">Shrinkwrapped Absolute</p>
 			</div>
 		</div>
 	</body>

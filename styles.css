@@ -1,11 +1,24 @@
+body {
+	font-family: arial;
+}
+
 div {
 	border: 1px solid black;
 	width: 90%;
 	height: 90%;
+	padding: 5px;
 	margin: auto;
 }
 
-span {
+*.gp {
+	position: absolute;
+}
+
+*.parent {
+	height: 100px;
+}
+
+/*span {
 	position: static;
 	margin: 40px;
 	line-height: 32px;
@@ -13,7 +26,7 @@ span {
 	border: 2px solid black;
 	background-color: yellow;
 }
-
+*/
 *.box {
 	border: 3px solid black;
 	background-color: gray;
@@ -21,17 +34,36 @@ span {
 	height: 100px;
 }
 
-#rs {
-	position: static;
-	width: 120px;
-	height: 100px;
-	margin: 10px auto;
+#in-place {
+	position: absolute;
+	z-index: 1;
 }
 
-#ss {
-	position: static;
+#shrinkwrapped {
+	position: absolute;
+	z-index: 0;
 	width: auto;
-	height: auto;
-	margin: 10px 50px;
+	left: 0;
+	bottom: 0;
+	margin: 0;
 }
 
+#sized {
+	position: absolute;
+	z-index: auto;
+	width: 170px;
+	height: 115px;
+	bottom: 0;
+	left: 270px;
+	margin: 0;
+}
+
+#stretched {
+	position: absolute;
+	z-index: -1;
+	height: auto;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+}
