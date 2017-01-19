@@ -10,16 +10,22 @@
 	</head>
 
 	<body>
-		<h1>Fixed</h1>
+		<h1>Relative</h1>
 
-		<div class="gp"><h2>Positioned Grandparent</h2>
-			<div class="parent"><h2>Non-positioned Parent</h2>
-				Absolute elements are positioned in their own layer in front of or behind the normal flow.
-				<span id="in-place" class="box">In-place Absolute</span>
-				<span id="sized" class="box">Sized Absolute</span>
-				<p id="stretched" class="box">Stretched Absolute</p>
-				<p id="shrinkwrapped" class="box">Shrinkwrapped Absolute</p>
-			</div>
+		<div class="relative">Before Relative Positioning
+			<p class="static">Static Block
+				<span class="static ontop">Static Inline on top</span>
+			</p>
+			<p class="static ontop">Static Block on top</p>
+			<p class="absolute">Absolute</p>
+		</div>
+
+		<div class="relative">After Relative Positioning
+			<p class="relative">Relative Block
+				<span class="relative ontop offset">Static Inline on top</span>
+			</p>
+			<p class="relative ontop">Static Block on top</p>
+			<p class="absolute">Absolute</p>
 		</div>
 	</body>
 </html>
