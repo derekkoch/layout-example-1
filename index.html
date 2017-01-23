@@ -10,22 +10,15 @@
 	</head>
 
 	<body>
-		<h1>Relative</h1>
+		<h1>Indented</h1>
 
-		<div class="relative">Before Relative Positioning
-			<p class="static">Static Block
-				<span class="static ontop">Static Inline on top</span>
-			</p>
-			<p class="static ontop">Static Block on top</p>
-			<p class="absolute">Absolute</p>
+		<div class="gp">Positioned Grandparent
+			<div class="parent">Non-positioned Parent
+				<div id="hss" class="s">Horizontally Stretched Static</div>
+				<div id="vsa" class="s">Vertically Stretched Absolute</div>
+				<span id="hsa" class="s">Horizontally Stretched Absolute</span>
+			</div>
 		</div>
 
-		<div class="relative">After Relative Positioning
-			<p class="relative">Relative Block
-				<span class="relative ontop offset">Static Inline on top</span>
-			</p>
-			<p class="relative ontop">Static Block on top</p>
-			<p class="absolute">Absolute</p>
-		</div>
 	</body>
 </html>
