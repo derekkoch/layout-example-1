@@ -1,51 +1,44 @@
-div {
-	background-color: gray;
+.parent {
+	border: 2px solid black;
+}
+
+table {
+	background-color: gold;
 	border-top: 1px solid lightgray;
 	border-left: 1px solid lightgray;
 	border-right: 2px solid gray;
 	border-bottom: 2px solid gray;
+
 }
 
-span {
-	background-color: gold;
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+.l-wrap {
+	width: auto;
+	margin-left: 60px;
+	margin-right: auto;
 }
 
-.center {
-	text-align: center;
+.r-wrap {
+	width: auto;
+	margin-left: auto;
+	margin-right: 60px;
 }
 
-.moved-left {
-	margin-left: -26px;
+.stretched {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.push-right {
-	margin-right: 50px;
+.r-sized {
+	width: 300px;
+	margin-left: auto;
+	margin-right: 60px;
+	text-align: right;
 }
 
-.moved-right {
-	margin-left: 50px;
-}
-
-.pull-left {
-	margin-right: -20px;
-}
-
-.moved-down {
-	margin-top: 20px;
-}
-
-.push-down {
-	margin-bottom: 20px;
-}
-
-.moved-up {
-	margin-top: -13px;
-}
-
-.pull-up {
-	margin-bottom: -16px;
+.l-sized {
+	width: 300px;
+	margin-left: 60px;
+	margin-right: auto;
+	text-align: left;
 }
