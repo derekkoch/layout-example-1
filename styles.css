@@ -1,44 +1,59 @@
-.parent {
-	border: 2px solid black;
+div {
+	border: 1px solid black;
 }
 
-table {
+p {
 	background-color: gold;
-	border-top: 1px solid lightgray;
-	border-left: 1px solid lightgray;
-	border-right: 2px solid gray;
-	border-bottom: 2px solid gray;
-
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
-.l-wrap {
-	width: auto;
-	margin-left: 60px;
-	margin-right: auto;
+.sized {
+	width: 70px;
+	height: 60px;
+	margin: 10px;
 }
 
-.r-wrap {
-	width: auto;
-	margin-left: auto;
-	margin-right: 60px;
+.widened {
+	width: 175px;
 }
 
-.stretched {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+.shrunk {
+	margin: 3px;
+	padding: 1px;
+	background-color: white;
 }
 
-.r-sized {
-	width: 300px;
-	margin-left: auto;
-	margin-right: 60px;
-	text-align: right;
+.right-extended {
+	margin-right: 120px;
 }
 
-.l-sized {
-	width: 300px;
-	margin-left: 60px;
-	margin-right: auto;
-	text-align: left;
+.right-retracted {
+	margin-right: -55px;
+}
+
+.left-retracted {
+	margin-left: -185px;
+}
+
+.top-extended {
+	margin-top: 20px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.clear-right {
+	clear: right;
 }
