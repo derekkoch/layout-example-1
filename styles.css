@@ -1,8 +1,8 @@
-div {
+.gp, .parent {
 	border: 1px solid black;
 }
 
-p {
+span {
 	background-color: gold;
 	border-top: 1px solid gray;
 	border-left: 1px solid gray;
@@ -10,50 +10,16 @@ p {
 	border-bottom: 2px solid black;
 }
 
-.sized {
-	width: 70px;
-	height: 60px;
-	margin: 10px;
+#absolute {
+	position: absolute;
+	width:140px;
+	height: auto;
 }
 
-.widened {
-	width: 175px;
-}
-
-.shrunk {
-	margin: 3px;
-	padding: 1px;
-	background-color: white;
-}
-
-.right-extended {
-	margin-right: 120px;
-}
-
-.right-retracted {
-	margin-right: -55px;
-}
-
-.left-retracted {
-	margin-left: -185px;
-}
-
-.top-extended {
-	margin-top: 20px;
-}
-
-.float-left {
-	float: left;
-}
-
-.float-right {
-	float: right;
-}
-
-.clear-left {
-	clear: left;
-}
-
-.clear-right {
-	clear: right;
+#fixed {
+	position: fixed;
+	height: 50px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 10px;
 }

@@ -10,21 +10,18 @@
 	</head>
 
 	<body>
-		<h1>Offset Float</h1>
+		<h1>Offset Absolute and Offset Fixed</h1>
 
-		<div>
-			<p class="float-left sized">Sized Float</p>
-			<p class="float-left right-retracted">Right-retracted Float</p>
-			<p class="float-left shrunk">Float</p>
+		<div class="gp"><h2>Positioned Grandparent</h2>
+			<div class="parent"><h2>Non-positioned Parent</h2>
+				The default position of an offset absolute element is where it would have
+				been rendered had it not been absolutely positioned:
+				<span id="absolute" class="border">Absolute</span>
 
-			<p class="float-right sized">Sized Float</p>
-			<p class="float-right left-retracted">Left-retracted Float</p>
-			<p class="float-right shrunk">Float</p>
-			<p class="float-right widened right-extended top-extended">Right-extended &amp; Top-extended Float</p>
-			<p class="float-left clear-left shrunk">Float</p>
-			<p class="float-right clear-right shrunk">Float</p>
+				<p>You can use top and left margins to offset it from its default position:
+				<span id="fixed" class="border">Fixed</span></p>
+			</div>
 
 		</div>
-
 	</body>
 </html>
