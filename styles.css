@@ -1,25 +1,69 @@
-.gp, .parent {
-	border: 1px solid black;
+body {
+	margin: 50px;
+}
+
+h1 {
+	font-family: arial;
+}
+
+div {
+	border: 1.5px black solid;
+}
+
+p {
+	background-color: lightgray;
+	border-top: 1px gray solid;
+	border-left: 1px gray solid;
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
 }
 
 span {
-	background-color: gold;
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+	background-color: yellow;
+	border-top: 1px gray solid;
+	border-left: 1px gray solid;
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
 }
 
-#absolute {
-	position: absolute;
-	width:140px;
-	height: auto;
+.float {
+	float: left;
+	width: 90px;
+	height: 40px;
 }
 
-#fixed {
-	position: fixed;
-	height: 50px;
-	width: auto;
-	margin-top: 10px;
-	margin-left: 10px;
+.sized {
+	width: 90px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.indented {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.relative {
+	position: relative;
+}
+
+.offset1{
+	left: 0px;
+	top: -12px;
+}
+
+.offset2 {
+	left: -50px;
+	top: 10px;
+}
+
+.offset3 {
+	left: 50px;
+	top: 10px;
+}
+
+.offset4 {
+	left: 0px;
+	top: -32px;
 }
