@@ -18,52 +18,37 @@ p {
 	border-bottom: 1px black solid;
 }
 
-span {
-	background-color: yellow;
-	border-top: 1px gray solid;
-	border-left: 1px gray solid;
-	border-right: 1px black solid;
-	border-bottom: 1px black solid;
+.baseline {
+	vertical-align: baseline;
 }
 
-.float {
-	float: left;
-	width: 90px;
-	height: 40px;
+.raised {
+	vertical-align: 10px;
 }
 
-.sized {
-	width: 90px;
-	height: 40px;
-	margin-left: auto;
-	margin-right: 0;
+.lowered {
+	vertical-align: -10px;
 }
 
-.indented {
-	margin-left: 60px;
-	margin-right: 60px;
+#l {
+	position: static;
+	text-align: left;
 }
 
-.relative {
-	position: relative;
+#c {
+	position: static;
+	text-align: center;
+	line-height: 48px;
 }
 
-.offset1{
-	left: 0px;
-	top: -12px;
+#r {
+	position: static;
+	text-align: right;
 }
 
-.offset2 {
-	left: -50px;
-	top: 10px;
+#j {
+	position: static;
+	text-align: justify;
 }
 
-.offset3 {
-	left: 50px;
-	top: 10px;
-}
 
-.offset4 {
-	left: 0px;
-	top: -32px;
-}

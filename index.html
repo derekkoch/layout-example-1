@@ -10,16 +10,17 @@
 	</head>
 
 	<body>
-		<h1>Offset Relative</h1>
+		<h1>Aligned Static Inline</h1>
 
 		<div>
-			<p class="relative offset-none">
-				When inline content is relatively offset, it retains its 
-				<span class="relative offset1">rendered shape</span>-including 
-		line breaks.</p>
-			<p class="relative offset2 float">Float </p>
-			<p class="relative offset3 sized">Sized Static</p>
-			<p class="relative offset4 indented">Indented Static Block</p>
+			<p id="l">Left-aligned content</p>
+			<p id="c">Horizontally and Vertically Center-aligned content</p>
+			<p id="r">Right-aligned content</p>
+			<p id="j">Justify-aligned works on all but the last line. This line is
+				justified but the last line is not.</p>
+					<p><span class="baseline">Aligned to baseline.</span>
+						<span class="lowered">Lowered relative to the baseline.</span>
+						<span class="raised">Raised relative to... </span></p>
 		</div>
 
 	</body>
