@@ -14,41 +14,44 @@ p {
 	background-color: lightgray;
 	border-top: 1px gray solid;
 	border-left: 1px gray solid;
-	border-right: 1px black solid;
-	border-bottom: 1px black solid;
-}
-
-.baseline {
-	vertical-align: baseline;
-}
-
-.raised {
-	vertical-align: 10px;
-}
-
-.lowered {
-	vertical-align: -10px;
-}
-
-#l {
-	position: static;
-	text-align: left;
-}
-
-#c {
-	position: static;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
 	text-align: center;
-	line-height: 48px;
+	font-family: arial;
 }
 
-#r {
+#left {
 	position: static;
-	text-align: right;
+	width: 120px;
+	margin-left: 0;
+	margin-right: auto;
 }
 
-#j {
+#left-off {
 	position: static;
-	text-align: justify;
+	width: 200px;
+	margin-left: 50px;
+	margin-right: auto;
 }
 
+#center {
+	position: static;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#right {
+	position: static;
+	width: 120px;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#right-off {
+	position: static;
+	width: 200px;
+	margin-left: auto;
+	margin-right: 50px;
+}
 
