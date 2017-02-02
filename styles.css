@@ -8,9 +8,10 @@ h1 {
 
 div {
 	border: 1.5px black solid;
+	padding: 2px;
 }
 
-p {
+table {
 	background-color: lightgray;
 	border-top: 1px gray solid;
 	border-left: 1px gray solid;
@@ -20,38 +21,47 @@ p {
 	font-family: arial;
 }
 
-#left {
-	position: static;
-	width: 120px;
+.l-wrap {
+	width: auto;
 	margin-left: 0;
 	margin-right: auto;
 }
 
-#left-off {
-	position: static;
-	width: 200px;
-	margin-left: 50px;
-	margin-right: auto;
-}
-
-#center {
-	position: static;
-	width: 120px;
+.c-wrap {
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#right {
-	position: static;
-	width: 120px;
+.r-wrap {
+	width: auto;
 	margin-left: auto;
+	margin-right: 20px;
+}
+
+.stretched {
+	width: 100%;
+	margin-left: 0;
 	margin-right: 0;
 }
 
-#right-off {
-	position: static;
-	width: 200px;
+.r-sized {
+	width: 350px;
 	margin-left: auto;
-	margin-right: 50px;
+	margin-right: 0;
+	text-align: right;
 }
 
+.c-sized {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.l-sized {
+	width: 350px;
+	margin-left: 20px;
+	margin-right: auto;
+	text-align: left;
+}
