@@ -1,14 +1,17 @@
+body {
+	margin-left: 200px;
+}
+
 h1 {
 	font-family: arial;
+	margin-left: -195px;
+	margin-bottom: 100px;
 }
 
 div {
 	border: 2px black solid;
 	margin: 20px;
 	padding: 2px;
-	position: relative;
-	height: 200px;
-	width: 500px;
 }
 
 p {
@@ -22,22 +25,54 @@ p {
 	padding: 5px;
 }
 
-#cm {
-	position: absolute;
-}
-
-.hc {
+.parent {
+	position: relative;
+	height: 140px;
 	width: 200px;
-	left: 0px;
-	margin-left: auto;
-	right: 0px;
-	margin-right: auto;
 }
 
-.vc {
-	height: 40px;
-	top: 0;
-	margin-top: auto;
-	bottom: 0;
-	margin-bottom: auto;
+.sized-block-outside-left {
+	width: 220px;
+	margin-left: -234px;
+}
+
+.sized-block-outside-right {
+	width: 220px;
+	margin-left: 100%;
+}
+
+.sized-float-outside-left {
+	width: 220px;
+	margin-left: -234px;
+	float: left;
+}
+
+.sized-float-outside-right {
+	width: 220px;
+	margin-left: 100%;
+	float: left;
+}
+
+.left {
+	position: absolute;
+	right: 100%;
+	margin-right: 5px;
+}
+
+.right {
+	position: absolute;
+	left: 100%;
+	margin-left: 4px;
+}
+
+.top {
+	position: absolute;
+	bottom: 100%;
+	margin-bottom: 5px;
+}
+
+.bottom {
+	position: absolute;
+	top: 100%;
+	margin-top: 5px;
 }
