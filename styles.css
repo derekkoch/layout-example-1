@@ -28,7 +28,7 @@ body {
 	text-align: left;
 	margin-top: 5px;
 	width: 400px;
-	margin-left: 0;
+	margin-left: 50px;
 	margin-right: auto;
 }
 
@@ -37,7 +37,7 @@ body {
 	text-align: left;
 	margin-top: 5px;
 	width: auto;
-	margin-left: 0;
+	margin-left: 50px;
 	margin-right: 0;
 }
 
@@ -48,7 +48,7 @@ body {
 	margin-top: 155px;
 	width: 400px;
 	left: 0;
-	margin-left: 0;
+	margin-left: -50px;
 	right: auto;
 	margin-right: auto;
 }
@@ -60,7 +60,7 @@ body {
 	margin-top: 200px;
 	width: auto;
 	left: 0;
-	margin-left: 0;
+	margin-left: -50px;
 	right: auto;
 	margin-right: auto;
 }
@@ -72,7 +72,7 @@ body {
 	margin-top: 245px;
 	width: auto;
 	left: 0;
-	margin-left: 0;
+	margin-left: -50px;
 	right: 0;
 	margin-right: 0;
 }
