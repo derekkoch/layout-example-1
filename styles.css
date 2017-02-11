@@ -23,13 +23,23 @@ body {
 	background-color: gold;
 }
 
+div.example span {
+	margin-right: -60px;
+	border: 1px dotted black;
+}
+
+span.example span {
+	margin-right: 30px;
+	border: none;
+}
+
 #zs {
 	position: static;
 	text-align: right;
 	margin-top: 5px;
 	width: 400px;
 	margin-left: auto;
-	margin-right: 0;
+	margin-right: 50px;
 }
 
 #ss {
@@ -38,7 +48,7 @@ body {
 	margin-top: 5px;
 	width: auto;
 	margin-left: auto;
-	margin-right: 0;
+	margin-right: 50px;
 }
 
 #za {
@@ -50,7 +60,7 @@ body {
 	left: auto;
 	margin-left: auto;
 	right: 0;
-	margin-right: 0;
+	margin-right: -50px;
 }
 
 #wa {
@@ -62,7 +72,7 @@ body {
 	left: auto;
 	margin-left: auto;
 	right: 0;
-	margin-right: 0;
+	margin-right: -50px;
 }
 
 #sa {
@@ -74,7 +84,7 @@ body {
 	left: 0;
 	margin-left: 0;
 	right: 0;
-	margin-right: 0;
+	margin-right: -50px;
 }
 
 
