@@ -23,68 +23,58 @@ body {
 	background-color: gold;
 }
 
-div.example span {
-	margin-right: -60px;
-	border: 1px dotted black;
-}
-
-span.example span {
-	margin-right: 30px;
-	border: none;
-}
-
 #zs {
 	position: static;
-	text-align: right;
+	text-align: center;
 	margin-top: 5px;
 	width: 400px;
 	margin-left: auto;
-	margin-right: 50px;
+	margin-right: auto;
 }
 
 #ss {
 	position: static;
-	text-align: right;
+	text-align: center;
 	margin-top: 5px;
 	width: auto;
-	margin-left: auto;
-	margin-right: 50px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 #za {
 	position: absolute;
-	text-align: right;
+	text-align: center;
 	top: 0;
 	margin-top: 155px;
-	width: 400px;
-	left: auto;
+	width: 67%;
+	left: 0;
 	margin-left: auto;
 	right: 0;
-	margin-right: -50px;
+	margin-right: auto;
 }
 
 #wa {
 	position: absolute;
-	text-align: right;
+	text-align: center;
 	top: 0;
 	margin-top: 200px;
-	width: auto;
-	left: auto;
-	margin-left: auto;
-	right: 0;
-	margin-right: -50px;
-}
-
-#sa {
-	position: absolute;
-	text-align: right;
-	top: 0;
-	margin-top: 245px;
 	width: auto;
 	left: 0;
 	margin-left: 0;
 	right: 0;
-	margin-right: -50px;
+	margin-right: 0;
+}
+
+#sa {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	margin-top: 245px;
+	width: auto;
+	left: 0;
+	margin-left: 15%;
+	right: 0;
+	margin-right: 15%;
 }
 
 
