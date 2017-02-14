@@ -4,8 +4,8 @@ body {
 
 .gp {
 	position: relative;
-	height: 295px;
-	width: 600px;
+	height: 300px;
+	width: 700px;
 	border: 2px solid black;
 }
 
@@ -20,64 +20,55 @@ body {
 	border: 5px black solid;
 	padding: 5px;
 	background-color: gold;
+	width: 120px;
+	text-align: center;
+	position: relative;
 }
 
 .example span {
-	margin-left: -40px;
+	left: 0;
+	width: 130px;
+	height: auto;
 }
 
 #zs {
 	position: static;
-	text-align: center;
-	margin-top: 5px;
-	width: auto;
-	margin-left: 90px;
-	margin-right: 10px;
+	height: 100px;
+	margin-top: 0;
+	margin-bottom: auto;
 }
 
-#ss {
+#ws {
 	position: static;
-	text-align: center;
-	margin-top: 5px;
-	width: auto;
-	margin-left: 90px;
-	margin-right: 10px;
+	height: auto;
+	margin-top: 0;
+	margin-bottom: auto;
 }
 
 #za {
 	position: absolute;
-	text-align: center;
+	height: 100px;
 	top: 0;
-	margin-top: 155px;
-	width: 440px;
-	left: 80px;
-	margin-left: auto;
-	right: 0;
-	margin-right: auto;
+	margin-top: 0;
+	margin-left: 200px;
 }
 
 #wa {
 	position: absolute;
-	text-align: center;
+	height: auto;
 	top: 0;
-	margin-top: 200px;
-	width: auto;
-	left: 0;
-	margin-left: 110px;
-	right: 0;
-	margin-right: 30px;
+	margin-top: 0;
+	bottom: auto;
+	margin-bottom: auto;
+	margin-left: 335px;
 }
 
 #sa {
 	position: absolute;
-	text-align: center;
+	height: auto;
 	top: 0;
-	margin-top: 245px;
-	width: auto;
-	left: 0;
-	margin-left: 110px;
-	right: 0;
-	margin-right: 30px;
+	margin-top: 0;
+	bottom: 0;
+	margin-bottom: 0;
+	margin-left: 510px;
 }
-
-
