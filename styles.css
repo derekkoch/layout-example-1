@@ -34,22 +34,25 @@ body {
 #zs {
 	position: static;
 	height: 100px;
-	margin-top: 0;
-	margin-bottom: auto;
+	margin-top: 25px;
+	margin-bottom: 0;
 }
 
 #ws {
 	position: static;
 	height: auto;
-	margin-top: 0;
-	margin-bottom: auto;
+	margin-top: -70px;
+	margin-bottom: 0;
+	background-color: yellow;
 }
 
 #za {
 	position: absolute;
 	height: 100px;
 	top: 0;
-	margin-top: 0;
+	margin-top: 70px;
+	margin-bottom: auto;
+	bottom: auto;
 	margin-left: 200px;
 }
 
@@ -57,9 +60,9 @@ body {
 	position: absolute;
 	height: auto;
 	top: 0;
-	margin-top: 0;
+	margin-top: 70px;
 	bottom: auto;
-	margin-bottom: auto;
+	margin-bottom: 0;
 	margin-left: 335px;
 }
 
@@ -67,7 +70,7 @@ body {
 	position: absolute;
 	height: auto;
 	top: 0;
-	margin-top: 0;
+	margin-top: 70px;
 	bottom: 0;
 	margin-bottom: 0;
 	margin-left: 510px;
