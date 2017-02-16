@@ -31,46 +31,53 @@ body {
 	height: auto;
 }
 
+span.example span {
+	position: absolute;
+	top: auto;
+	margin-top: auto;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
 #zs {
 	position: static;
 	height: 100px;
-	margin-top: 25px;
+	margin-top: auto;
 	margin-bottom: 0;
 }
 
 #ws {
 	position: static;
 	height: auto;
-	margin-top: -70px;
+	margin-top: auto;
 	margin-bottom: 0;
-	background-color: yellow;
 }
 
 #za {
 	position: absolute;
 	height: 100px;
-	top: 0;
-	margin-top: 70px;
-	margin-bottom: auto;
-	bottom: auto;
+	top: auto;
+	margin-top: auto;
+	bottom: 0;
+	margin-bottom: 0;
 	margin-left: 200px;
 }
 
 #wa {
 	position: absolute;
 	height: auto;
-	top: 0;
-	margin-top: 70px;
-	bottom: auto;
+	top: auto;
+	margin-top: auto;
+	bottom: 0;
 	margin-bottom: 0;
-	margin-left: 335px;
+	margin-left: 355px;
 }
 
 #sa {
 	position: absolute;
 	height: auto;
 	top: 0;
-	margin-top: 70px;
+	margin-top: 0;
 	bottom: 0;
 	margin-bottom: 0;
 	margin-left: 510px;
