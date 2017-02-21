@@ -9,77 +9,68 @@ body {
 	border: 2px solid black;
 }
 
-.parent {
-	margin: 10px;
-	padding: 10px;
-	padding-top: 0;
-	border: 1px solid black;
-}
-
-.example {
-	border: 5px black solid;
-	padding: 5px;
-	background-color: gold;
+.ex1 {
 	width: 120px;
+	padding: 5px;
 	text-align: center;
-	position: relative;
+	border: 1px dotted black;	
 }
 
-.example span {
+.ex2 {
+	position: relative;
+	border: 5px solid black;
+	background-color: gold;
+	left: 0;
+}
+
+.ex1 span {
+	height: 36px;
 	left: 0;
 	width: 130px;
-	height: auto;
-}
-
-span.example span {
 	position: absolute;
-	top: auto;
+	top: 0;
 	margin-top: auto;
-	bottom: 5px;
-	margin-bottom: 0;
+	bottom: 0;
+	margin-bottom: auto;
 }
 
-#zs {
-	position: static;
+#ia {
 	height: 100px;
+	top: 0;
 	margin-top: auto;
-	margin-bottom: -70px;
-}
-
-#ws {
-	position: static;
-	height: auto;
-	margin-top: auto;
-	margin-bottom: 120px;
-	background-color: yellow;
+	bottom: 0;
+	margin-bottom: auto;
+	position: absolute;
+	line-height: 100px;
+	margin-left: 40px;
 }
 
 #za {
-	position: absolute;
 	height: 100px;
-	top: auto;
+	top: 0;
 	margin-top: auto;
 	bottom: 0;
-	margin-bottom: 50px;
+	margin-bottom: auto;
+	position: absolute;
 	margin-left: 200px;
 }
 
 #wa {
-	position: absolute;
 	height: auto;
-	top: auto;
-	margin-top: auto;
+	top: 0;
+	margin-top: 90px;
 	bottom: 0;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
+	position: absolute;
 	margin-left: 355px;
 }
 
 #sa {
-	position: absolute;
 	height: auto;
 	top: 0;
-	margin-top: 0;
+	margin-top: 90px;
 	bottom: 0;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
+	position: absolute;
 	margin-left: 510px;
 }
