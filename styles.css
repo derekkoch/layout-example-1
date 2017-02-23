@@ -2,94 +2,44 @@ body {
 	font-family: arial;
 }
 
-p span:nth-child(2n) {
-	position: absolute;
-	left: 10%;
+p {
+	margin-top: 20px;
+	letter-spacing: 0.5px;
+	line-height: 1.9em;
 }
 
-p span:nth-child(3n) {
-	position: absolute;
-	left: 15%;
+.highlight {
+	color: white;
+	background-color: black;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	padding-top: 0.25em;
+	padding-bottom: 0.13em;
+	background-image: none;
 }
 
-p span:nth-child(4n) {
-	position: absolute;
-	left: 20%;
-}
-
-p span:nth-child(5n) {
-	position: absolute;
-	left: 25%;
-}
-
-.family1 {
-	font-family: sans-serif;
-}
-
-.family2 {
-	font-family: serif;
-}
-
-.family3 {
-	font-family: monospace;
-}
-
-.size1 {
-	font-size: small;
-}
-
-.size2 {
-	font-family: medium;
-}
-
-.size3 {
-	font-size: large;
-}
-
-.style1 {
-	font-style: normal;
-}
-
-.style2 {
-	font-style: italic;
-}
-
-.weight1 {
-	font-weight: normal;
-}
-
-.weight2 {
-	font-weight: bold;
-}
-
-.variant1 {
-	font-variant: normal;
-}
-
-.variant2 {
-	font-variant: small-caps;
-}
-
-.color1 {
+.black-on-gold {
 	color: black;
+	background-color: gold;
 }
 
-.color2 {
-	color: gold;
+.white-on-firebrick {
+	color: white;
+	background-color: firebrick;
 }
 
-.trans1 {
-	text-transform: none;
+.cyan-on-royalblue {
+	color: cyan;
+	background-color: royalblue;
 }
 
-.trans2 {
-	text-transform: lowercase;
+.palegreen-on-darkgreen {
+	color: palegreen;
+	background-color: darkgreen;
 }
 
-.trans3 {
-	text-transform: uppercase;
-}
-
-.trans4 {
-	text-transform: capitalize;
+.textured {
+	color: black;
+	background-color: white;
+	background-image:url(paper/paper.png);
 }
