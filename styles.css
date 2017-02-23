@@ -2,75 +2,94 @@ body {
 	font-family: arial;
 }
 
-.gp {
-	position: relative;
-	height: 300px;
-	width: 700px;
-	border: 2px solid black;
-}
-
-.ex1 {
-	width: 120px;
-	padding: 5px;
-	text-align: center;
-	border: 1px dotted black;	
-}
-
-.ex2 {
-	position: relative;
-	border: 5px solid black;
-	background-color: gold;
-	left: 0;
-}
-
-.ex1 span {
-	height: 36px;
-	left: 0;
-	width: 130px;
+p span:nth-child(2n) {
 	position: absolute;
-	top: 0;
-	margin-top: auto;
-	bottom: 0;
-	margin-bottom: auto;
+	left: 10%;
 }
 
-#ia {
-	height: 100px;
-	top: 60px;
-	margin-top: auto;
-	bottom: -60px;
-	margin-bottom: auto;
+p span:nth-child(3n) {
 	position: absolute;
-	line-height: 100px;
-	margin-left: 40px;
+	left: 15%;
 }
 
-#za {
-	height: 100px;
-	top: 60px;
-	margin-top: auto;
-	bottom: -60px;
-	margin-bottom: auto;
+p span:nth-child(4n) {
 	position: absolute;
-	margin-left: 200px;
+	left: 20%;
 }
 
-#wa {
-	height: auto;
-	top: 0;
-	margin-top: 150px;
-	bottom: 0;
-	margin-bottom: 30px;
+p span:nth-child(5n) {
 	position: absolute;
-	margin-left: 355px;
+	left: 25%;
 }
 
-#sa {
-	height: auto;
-	top: 0;
-	margin-top: 150px;
-	bottom: 0;
-	margin-bottom: 30px;
-	position: absolute;
-	margin-left: 510px;
+.family1 {
+	font-family: sans-serif;
+}
+
+.family2 {
+	font-family: serif;
+}
+
+.family3 {
+	font-family: monospace;
+}
+
+.size1 {
+	font-size: small;
+}
+
+.size2 {
+	font-family: medium;
+}
+
+.size3 {
+	font-size: large;
+}
+
+.style1 {
+	font-style: normal;
+}
+
+.style2 {
+	font-style: italic;
+}
+
+.weight1 {
+	font-weight: normal;
+}
+
+.weight2 {
+	font-weight: bold;
+}
+
+.variant1 {
+	font-variant: normal;
+}
+
+.variant2 {
+	font-variant: small-caps;
+}
+
+.color1 {
+	color: black;
+}
+
+.color2 {
+	color: gold;
+}
+
+.trans1 {
+	text-transform: none;
+}
+
+.trans2 {
+	text-transform: lowercase;
+}
+
+.trans3 {
+	text-transform: uppercase;
+}
+
+.trans4 {
+	text-transform: capitalize;
 }
