@@ -2,68 +2,11 @@ body {
 	font-family: arial;
 }
 
-.t1 {
-	text-decoration: underline;
+.shadow {
+	text-shadow: #999999 5px 5px 5px;
 }
 
-.t2 {
-	text-decoration: overline;
-}
-
-.t3 {
-	text-decoration: line-through;
-}
-
-.t4 {
-	border-bottom: 1px solid black;
-}
-
-.t5 {
-	border-bottom: 1px dotted black;
-}
-
-.t6 {
-	border-bottom: 2px dashed gray;
-}
-
-.t7 {
-	border-top: 3px double red;
-}
-
-.t8 {
-	border-top: 4px groove blue;
-}
-
-.t9 {
-	border-top: 6px ridge green;
-}
-
-.t10 {
-	background: repeat-x left bottom url("img/red-dot.png");
-	padding-bottom: 0px;
-}
-
-.t11 {
-	background: repeat-x left bottom url("img/dotted-dot.png");
-	padding-bottom: 0px;
-}
-
-.t12 {
-	background: repeat-x left bottom url("img/alexa-dot.jpg");
-	padding-bottom: 2px;
-}
-
-.t13 {
-	background: repeat-x left top url("img/red-dot.png");
-	padding-top: 3px;
-}
-
-.t14 {
-	background: repeat-x left top url("img/dotted-dot.png");
-	padding-top: 2px;
-}
-
-.t15 {
-	background: repeat-x left center url("img/alexa-dot.jpg");
-	padding: 5px;
+.shadow {
+	filter: shadow(color=#999999, direction=135, strength=4);
+	zoom: 1;
 }
