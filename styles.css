@@ -2,44 +2,68 @@ body {
 	font-family: arial;
 }
 
-p {
-	margin-top: 20px;
-	letter-spacing: 0.5px;
-	line-height: 1.9em;
+.t1 {
+	text-decoration: underline;
 }
 
-.highlight {
-	color: white;
-	background-color: black;
-	padding-left: 0.25em;
-	padding-right: 0.25em;
-	padding-top: 0.25em;
-	padding-bottom: 0.13em;
-	background-image: none;
+.t2 {
+	text-decoration: overline;
 }
 
-.black-on-gold {
-	color: black;
-	background-color: gold;
+.t3 {
+	text-decoration: line-through;
 }
 
-.white-on-firebrick {
-	color: white;
-	background-color: firebrick;
+.t4 {
+	border-bottom: 1px solid black;
 }
 
-.cyan-on-royalblue {
-	color: cyan;
-	background-color: royalblue;
+.t5 {
+	border-bottom: 1px dotted black;
 }
 
-.palegreen-on-darkgreen {
-	color: palegreen;
-	background-color: darkgreen;
+.t6 {
+	border-bottom: 2px dashed gray;
 }
 
-.textured {
-	color: black;
-	background-color: white;
-	background-image:url(paper/paper.png);
+.t7 {
+	border-top: 3px double red;
+}
+
+.t8 {
+	border-top: 4px groove blue;
+}
+
+.t9 {
+	border-top: 6px ridge green;
+}
+
+.t10 {
+	background: repeat-x left bottom url("img/red-dot.png");
+	padding-bottom: 0px;
+}
+
+.t11 {
+	background: repeat-x left bottom url("img/dotted-dot.png");
+	padding-bottom: 0px;
+}
+
+.t12 {
+	background: repeat-x left bottom url("img/alexa-dot.jpg");
+	padding-bottom: 2px;
+}
+
+.t13 {
+	background: repeat-x left top url("img/red-dot.png");
+	padding-top: 3px;
+}
+
+.t14 {
+	background: repeat-x left top url("img/dotted-dot.png");
+	padding-top: 2px;
+}
+
+.t15 {
+	background: repeat-x left center url("img/alexa-dot.jpg");
+	padding: 5px;
 }
