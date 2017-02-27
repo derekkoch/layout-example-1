@@ -2,11 +2,21 @@ body {
 	font-family: arial;
 }
 
-.shadow {
-	text-shadow: #999999 5px 5px 5px;
+#h2 {
+	position: relative;
+	width: 250px;
+	height: 76px;
+	padding: 0;
+	overflow: hidden;
 }
 
-.shadow {
-	filter: shadow(color=#999999, direction=135, strength=4);
-	zoom: 1;
+#h2 span {
+	position: absolute;
+	width: 250px;
+	height: 76px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	background-image: url("img/heading2.png");
+	background-repeat: no-repeat;
 }
