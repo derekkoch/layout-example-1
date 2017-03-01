@@ -1,0 +1,8 @@
+@font-face{
+	font-family: Chunkfive;
+	src: url('fonts/chunkfive.otf') format("opentype");
+}
+
+#h2 {
+	font-family: Chunkfive, Arial, sans-serif;
+}
