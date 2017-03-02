@@ -1,8 +1,9 @@
-@font-face{
-	font-family: Chunkfive;
-	src: url('fonts/chunkfive.otf') format("opentype");
-}
-
-#h2 {
-	font-family: Chunkfive, Arial, sans-serif;
+.invisible-text {
+	text-indent: -9999px;
+	text-align: left;
+	width: 75px;
+	height: 35px;
+	background-image: url("star.png");
+	background-repeat: no-repeat;
+	background-position: center center;	
 }
