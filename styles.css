@@ -1,9 +1,8 @@
-.invisible-text {
-	text-indent: -9999px;
-	text-align: left;
-	width: 75px;
-	height: 35px;
-	background-image: url("star.png");
-	background-repeat: no-repeat;
-	background-position: center center;	
+.screenreader-only {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
