@@ -10,23 +10,26 @@
 	</head>
 
 	<body>
-		<h1>Blocked</h1>
+		<h1>Nowrap</h1>
 
-		<p>The Blocked design pattern displays an inline element as a block element 
-		that can be styled in every way as a block element.
-		<span class="blocked">This is an inline element displayed as a block.
-		Its first line is indented and it has a collapsing vertical margin.</span></p>
+		<div>
+			<p>You can keep a phrase together using <code>nowrap</code>, such as 
+			<span class="nowrap">DO NOT BREAK THIS ACROSS TWO LINES</span></p>
+			
+			<p>You can use nowrap to keep some browsers from breaking a hyphenated word 
+			across two lines, such as the following word:
+			<span class="nowrap">super-cali-fragilistic-expi-ali-docious!</span></p>
 
-		<div class="vcard">
-			<span class="fn org">Name</span>
-			<p class="adr">
-				<span class="street-address">Street</span>
-				<span class="locality">City</span>,
-				<span class="region">State</span>,
-				<span class="postal-code">Zip Code</span>
-				<span class="country-name">Country</span>
-			</p>
-			<a class="email" href="mailto:email@email.com">email@email.com</a>
+			<p>You an keep together a small code snippet containing a space, such as
+			<code class="nowrap">&lt;br  /&gt;</code>.</p>
+
+			<p>Notice how it breaks across two lines when <code>nowrap</code>
+			is <em>not</em> applied to it: <code>&lt;br  /&gt;</code>.</p>
+
+			<p class="nowrap">Be aware that nowrapped text can overflow its container. This 
+			does not affect the width of other elements, but it may cause a browser to 
+			display a horizontal scrollbar requiring users to scroll to see the text.</p>
+
 		</div>
 
 	</body>
