@@ -10,16 +10,24 @@
 	</head>
 
 	<body>
-		<h1>Spacing</h1>
+		<h1>Blocked</h1>
 
-		<p>This paragraph is normal. It has no indentation, margins, padding, 
-			letter spacing, word spacing, text justification, or line spacing.</p>
+		<p>The Blocked design pattern displays an inline element as a block element 
+		that can be styled in every way as a block element.
+		<span class="blocked">This is an inline element displayed as a block.
+		Its first line is indented and it has a collapsing vertical margin.</span></p>
 
-		<p class="elegant">This paragraph has many forms of spacing. The first line of text 
-			is indented. Margins indent the paragraph on all sides. Padding puts space between paragraph and its borders. Letters have 1 extra pixel of space between them. Words
-			have 2 extra pixels of space between them. Text is justified, which adds extra space
-			between words to align text to the left and right edges. And lines have extra 
-			spacing between them.</p>
+		<div class="vcard">
+			<span class="fn org">Name</span>
+			<p class="adr">
+				<span class="street-address">Street</span>
+				<span class="locality">City</span>,
+				<span class="region">State</span>,
+				<span class="postal-code">Zip Code</span>
+				<span class="country-name">Country</span>
+			</p>
+			<a class="email" href="mailto:email@email.com">email@email.com</a>
+		</div>
 
 	</body>
 
