@@ -8,7 +8,10 @@ div {
 	width: 500px;
 }
 
-.nowrap {
-	white-space: nowrap;
-	background-color: gold;
+.preserved {
+	white-space: pre;
+}
+
+.not-preserved {
+	white-space: normal;
 }

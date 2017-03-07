@@ -10,28 +10,28 @@
 	</head>
 
 	<body>
-		<h1>Nowrap</h1>
+		<h1>Preserved</h1>
 
-		<div>
-			<p>You can keep a phrase together using <code>nowrap</code>, such as 
-			<span class="nowrap">DO NOT BREAK THIS ACROSS TWO LINES</span></p>
-			
-			<p>You can use nowrap to keep some browsers from breaking a hyphenated word 
-			across two lines, such as the following word:
-			<span class="nowrap">super-cali-fragilistic-expi-ali-docious!</span></p>
+		<pre>You	can 	preserve 	whitespace 	using <code>&lt;pre&gt;</code>.</pre>
 
-			<p>You an keep together a small code snippet containing a space, such as
-			<code class="nowrap">&lt;br  /&gt;</code>.</p>
+		<p>You can use <code>white-space:pre</code> to insert line breaks and spaces.
+			<span class="preserved">
+				</span>Preserved moves this sentence to a new line and indents it five spaces.
+			<br "/>&nbsp;&nbsp;&nbsp;A better approach is to insert
+			<code>&lt;br /&gt;</code> and <code>&amp;nbsp;</code>
+		</p>
 
-			<p>Notice how it breaks across two lines when <code>nowrap</code>
-			is <em>not</em> applied to it: <code>&lt;br  /&gt;</code>.</p>
+		<p class="preserved">You can preserve
+						whitespace in blocks.
+		</p>
 
-			<p class="nowrap">Be aware that nowrapped text can overflow its container. This 
-			does not affect the width of other elements, but it may cause a browser to 
-			display a horizontal scrollbar requiring users to scroll to see the text.</p>
+		<p>You can preserve <span class="preserved">
+						whitespace </span>in inline elements.
+		</p>
 
-		</div>
-
-	</body>
+		<p class="preserved">You can turn <code>white-space:pre</code>
+									<span class="not-preserved">on and off
+																	at any time</span>
+		</p>
 
 </html>
