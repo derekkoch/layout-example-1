@@ -2,16 +2,14 @@ body {
 	font-family: Arial sans-serif;
 }
 
-div {
-	border: 1px solid black;
-	height: 700;
-	width: 500px;
+.blocked {
+	display: block;
 }
 
 .preserved {
 	white-space: pre;
 }
 
-.not-preserved {
-	white-space: normal;
+.nowrap {
+	white-space: nowrap;
 }

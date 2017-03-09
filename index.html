@@ -10,28 +10,20 @@
 	</head>
 
 	<body>
-		<h1>Preserved</h1>
+		<h1>Code</h1>
 
-		<pre>You	can 	preserve 	whitespace 	using <code>&lt;pre&gt;</code>.</pre>
+		<p>The following code is blocked and preserved:
 
-		<p>You can use <code>white-space:pre</code> to insert line breaks and spaces.
-			<span class="preserved">
-				</span>Preserved moves this sentence to a new line and indents it five spaces.
-			<br "/>&nbsp;&nbsp;&nbsp;A better approach is to insert
-			<code>&lt;br /&gt;</code> and <code>&amp;nbsp;</code>
+			<code class="blocked preserved">
+				.blocked	{ display: block; }
+				.preserved 	{ white-space: pre; }
+				.code 	 	{ font-family: monospace; }
+			</code>
+
 		</p>
 
-		<p class="preserved">You can preserve
-						whitespace in blocks.
+		<p>The following inline code use the Nowrap design pattern:
+			<code class="nowrap preserved">a = x(y<sup>2</sup> + z<sup>3</sup>) + 1.</code>
+			This prevents it from being wrapped across lines.
 		</p>
-
-		<p>You can preserve <span class="preserved">
-						whitespace </span>in inline elements.
-		</p>
-
-		<p class="preserved">You can turn <code>white-space:pre</code>
-									<span class="not-preserved">on and off
-																	at any time</span>
-		</p>
-
 </html>
