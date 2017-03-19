@@ -2,45 +2,18 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-.hr {
-	display: block;
-	margin: 0;
-}
-
-.border {
-	padding-top: 1px;
-	margin-top: 25px;
-	margin-bottom: 0;
-	width: auto;
-	margin-left: 0;
-	margin-right: 0;
-	border-top: 4px ridge blue;
-	border-bottom: 4px groove blue;
-	background: none;
-	background-color: yellow;
-}
-
-.background {
-	padding-top: 5px;
-	margin-top: 25px;
-	margin-bottom: 0;
-	width: auto;
-	margin-left: 76px;
-	margin-right: 76px;
-	border: none;
-	background: repeat-x left center url("img/red-dot.png");
-	background-color: transparent;
-}
-
-.combo {
-	padding-top: 5px;
-	margin-top: 25px;
-	margin-bottom: 0;
+p {
+	background-color: lightgray;
+	border-bottom: 1px black solid;
 	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	border-top: 4px ridge blue;
-	border-bottom: 4px groove blue;
-	background-repeat: repeat-x left center url("img/red-dot.png");
-	background-color: white;
+}
+
+.hanging-indent {
+	text-indent: -50px;
+	padding-left: 50px;
+}
+
+.hanging-indent2 {
+	text-indent: -50px;
+	padding-left: 70px;
 }

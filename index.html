@@ -10,13 +10,16 @@
 	</head>
 
 	<body>
-		<h1>Inline Horizontal Rule</h1>
+		<h1>Hanging Indent</h1>
 
-		<p>You can insert an inline horizontal rule anywhere.
-			<span class="hr"></span>&uarr; Invisible inline horizontal rule - a line break.
-			<span class="hr border"></span>&uarr; Double-border inline horizontal rule.
-			<span class="hr background"></span>&uarr; Background inline horizontal rule.
-			<span class="hr combo"></span>&uarr; Combination inline horizontal rule.
+		<p class="hanging-indent">A hanging indent uses a negative value for
+			<code>text-indent</code> and a positive value for <code>padding-left</code>.
+			Hanging indents work only in terminal block elements like this paragraph.
+		</p>
+
+		<p class="hanging-indent2">If you do not want the hanging indent to 
+			go all the way to the left, make the positive value in <code>padding-left</code>
+			larger than the absolute value of <code>text-indent</code>.
 		</p>
 	
 	</body>
