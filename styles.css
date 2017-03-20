@@ -2,24 +2,33 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-p {
-	background-color: lightgray;
-	border-bottom: 1px black solid;
-	width: 400px;
+div {
+	font-size: 60px;
+	line-height: normal;
+	border: 1px solid black;
 }
 
-.align-left {
-	text-align: left;
+.main {
+	background-color: gold;
+	padding: 0 10px;
 }
 
-.align-center {
-	text-align: center;
+.text {
+	font-size: 18px;
 }
 
-.align-right {
-	text-align: right;
+.text-top {
+	vertical-align: text-top;
 }
 
-.align-justify {
-	text-align: justify;
+.middle {
+	vertical-align: middle;
+}
+
+.baseline {
+	vertical-align: baseline;
+}
+
+.text-bottom {
+	vertical-align: text-bottom;
 }
