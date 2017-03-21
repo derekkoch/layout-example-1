@@ -3,32 +3,17 @@ body {
 }
 
 div {
-	font-size: 60px;
-	line-height: normal;
 	border: 1px solid black;
-}
-
-.main {
-	background-color: gold;
-	padding: 0 10px;
-}
-
-.text {
-	font-size: 18px;
-}
-
-.text-top {
-	vertical-align: text-top;
-}
-
-.middle {
-	vertical-align: middle;
 }
 
 .baseline {
 	vertical-align: baseline;
 }
 
-.text-bottom {
-	vertical-align: text-bottom;
+.raised {
+	vertical-align: 1em;
+}
+
+.lowered {
+	vertical-align: -1em;
 }
