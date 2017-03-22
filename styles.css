@@ -2,18 +2,13 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-div {
-	border: 1px solid black;
+sub {
+	vertical-align: -0.5em;
+	font-size: 0.75em;
 }
 
-.baseline {
-	vertical-align: baseline;
+sup {
+	vertical-align: 0.5em;
+	font-size: 0.75em;
 }
 
-.raised {
-	vertical-align: 1em;
-}
-
-.lowered {
-	vertical-align: -1em;
-}
