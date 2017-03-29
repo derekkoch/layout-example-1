@@ -1,37 +1,64 @@
-*.body {
-	font-family: "Arial" sans-serif;
+body {
+	font-family: "Arial", sans-serif;
 }
 
 section {
-	padding: 10px;
-	margin: 10px 0;
-	background-color: gold;
+	border-top: 1px solid gray;
 	border-left: 1px solid gray;
 	border-right: 2px solid black;
-	border-top: 1px solid gray;
 	border-bottom: 2px solid black;
-	display: block;
+	background-color: gold;	
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 0;
+	margin-right: 10px;
+	padding: 5px;
 }
 
-section p {
-	margin: 0;
-	margin-top: 5px;
+ul {
+	margin-left: 0;
+	padding-left: 0;
 }
 
-section h2 {
-	margin: 0;
-	margin-top: 10px;
+ul li {
+	margin-left: 60px;
 }
 
-section h3 {
-	margin: 0;
-	margin-bottom: 10px;
+.listed {
+	margin-left: 60px;
+	display: list-item;
+	list-style: square;
 }
 
-section.example {
-	background-color: white;
+.list {
+	margin-left: 60px;
 }
 
-section section {
-	margin-bottom: 0;
+.marker {
+	float: left;
+	margin-left: -60px;
+	width: 60px;
+	text-align: center;
+}
+
+.custom {
+	list-style-image: url("img/red-dot.png");
+}
+
+.circle {
+	list-style-type: circle;
+}
+
+.decimal {
+	list-style-type: decimal;
+}
+
+.inside {
+	list-style-position: inside;
+}
+
+.none {
+	list-style-type: none;
 }
