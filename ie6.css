@@ -2,63 +2,27 @@ body {
 	font-family: "Arial", sans-serif;
 }
 
-section {
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-	background-color: gold;	
-	width: 400px;
-	height: 400px;
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 0;
-	margin-right: 10px;
-	padding: 5px;
-}
-
-ul {
+.bb-list {
+	padding-left: 40px;
 	margin-left: 0;
-	padding-left: 0;
+	margin-top: 20px;
 }
 
-ul li {
-	margin-left: 60px;
-}
-
-.listed {
-	margin-left: 60px;
-	display: list-item;
-	list-style: square;
-}
-
-.list {
-	margin-left: 60px;
-}
-
-.marker {
-	float: left;
-	margin-left: -60px;
-	width: 60px;
-	text-align: center;
-}
-
-.custom {
-	list-style-image: url("img/red-dot.png");
-}
-
-.circle {
-	list-style-type: circle;
-}
-
-.decimal {
-	list-style-type: decimal;
-}
-
-.inside {
-	list-style-position: inside;
-}
-
-.none {
+.bb-list li,
+.bb-list dt,
+.bb-list dd,
+.bb-list p {
+	padding-left: 40px;
+	margin-left: -40px;
 	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.bb1 {
+	background: url("img/red-dot.png") no-repeat 10px 1px;
+}
+
+.bb2 {
+	background: url("img/alexa-dot.png") no-repeat 10px 1px;
 }
