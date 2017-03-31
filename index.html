@@ -10,44 +10,21 @@
 	</head>
 
 	<body>
-		<h1>Inlined</h1>
+		<h1>Collapsed Margins</h1>
 
 		<div>
-			<table>
-				<tr>
-					<td>Normal Table</td><td>r1c2</td><td>r1c3</td>
-				</tr>
-				<tr>
-					<td>row2</td><td>r2c2</td><td>r2c3</td>
-				</tr>
-			</table>
-
-			<ul>
-				<li>Normal List</li>
-				<li>Normal List</li>
-			</ul>
+			<p class="collapsed">Margins collapsed into parent's &uarr;&darr;</p>
 		</div>
 
-		<div>
-			<p class="inlined">Inlined Paragraph</p>
+		<div class="border">
+			<p class="collapsed">Margins not collapsed into parent's &uarr;&darr;</p>
+		</div>
 
-			<table class="inlined">
-				<tr>
-					<td>Inlined Table</td>
-					<td>r1c2</td>
-					<td>r1c3</td>
-				</tr>
-				<tr>
-					<td>r2c1</td>
-					<td>r2c2</td>
-					<td>r1c3</td>
-				</tr>
-			</table>
-			
-			<ul class="inlined">
-				<li class="inlined">Inlined List</li>
-				<li class="inlined">Inlined List</li>
-			</ul>
+		<div class="border">
+			<p class="collapsed">Collapsed sibling margins &darr;</p>
+			<p class="collapsed">Collapsed sibling margins &uarr;</p>
+			<p class="uncollapsed">Uncollapsed (transparent padding) &uarr;&darr;</p>
+			<p class="uncollapsed">Uncollapsed (transparent border) &uarr;</p>
 		</div>
 
 	</body>

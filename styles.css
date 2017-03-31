@@ -3,35 +3,33 @@ body {
 }
 
 div {
-	padding: 10px;
-	margin-bottom:15px;
+	margin: 10px;
+	padding-left: 30px;
+	background-color: gold;
+	background-image: url("img/ruler.gif");
+	background-repeat: repeat-y;
+}
+
+.border {
 	border: 2px solid black;
 }
 
-table, p, ul, li {
+.collapsed {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.uncollapsed1 {
 	margin-top: 0;
-	margin-bottom: 10px;
-	padding-right: 5px;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: transparent;
 }
 
-p, td, ul, li {
-	padding-top: 5px;
-	padding-bottom:5px;
-	background-color: gold;
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
-	border-bottom: 2px solid black;
-	border-right: 2px solid black;
-}
-
-.inlined {
-	display: inline;
-	line-height: normal;
-	padding: 5px;
-	margin: 5px;
-	vertical-align: bottom;
-}
-
-table.inlined {
-	display: inline-table;
+.uncollapsed2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
 }
