@@ -10,22 +10,24 @@
 	</head>
 
 	<body>
-		<h1>Collapsed Margins</h1>
+		<h1>Run-In</h1>
 
-		<div>
-			<p class="collapsed">Margins collapsed into parent's &uarr;&darr;</p>
-		</div>
+		<section>
+			<h2>Normal Heading</h2>
+			<p class="indent">This is a paragraph following the heading. Notice how the previous heading and this paragraph are separate blocks.</p>
+			<p>This is another paragraph following the first paragraph.</p>
+		</section>
 
-		<div class="border">
-			<p class="collapsed">Margins not collapsed into parent's &uarr;&darr;</p>
-		</div>
+		<section>
+			<div class="run-in-container indent">
+				<h2 class="run-in">Run-In Heading</h2>
+				<p class="run-in">This is a paragraph following the heading. Notice how 
+				the heading runs into the first line of this paragraph, and notice how 
+				its styles are transferred to the run-in container.</p>
+			</div>
 
-		<div class="border">
-			<p class="collapsed">Collapsed sibling margins &darr;</p>
-			<p class="collapsed">Collapsed sibling margins &uarr;</p>
-			<p class="uncollapsed">Uncollapsed (transparent padding) &uarr;&darr;</p>
-			<p class="uncollapsed">Uncollapsed (transparent border) &uarr;</p>
-		</div>
+			<p>This is another paragraph following the first paragraph.</p>
+		</section>
 
 	</body>
 
