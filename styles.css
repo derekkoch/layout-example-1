@@ -1,32 +1,40 @@
 body {
 	font-family: "Arial", sans-serif;
+	font-size: 18px;
 }
 
-section {
-	padding: 10px;
-	margin-bottom: 20px;
-	background-color: gold;
-	border-left: 1px solid gray;
-	border-right: 2px solid black;
-	border-top: 1px solid gray;
-	border-bottom: 2px solid black;
-	display: block;
-}
-
-.indent {
+h1 {
 	margin-left: 20px;
-	border-left: 4px solid black;
-	padding-left: 20px;
 }
 
-.run-in {
-	display: inline;
+p {
+	background-color: gold;
+	text-align: center;
+	border-top: 1px gray solid;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
+	border-left: 1px gray solid;
+	width: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.run-in-container h2 {
-	padding-right: 20px;
+hr {
+	width: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.run-in-container p {
-	font-style: italic;
+.hr {
+	height: 40px;
+	width: 200px;
+	margin: 0 auto 0 auto;
+	border: 0;
+	background: url("img/hr.png") repeat-x left center;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+.hr hr {
+	display: none;
 }
