@@ -10,16 +10,25 @@
 	</head>
 
 	<body>
-		<h1>Block Spacer</h1>
+		<h1>Block Space Remover</h1>
 
-		<p>This paragraph is not followed by a block spacer.</p>
-		<p>This paragraph is followed by a block spacer.</p>
+		<div class="section">
+			<p>This paragraph has 32-pixel top and bottom margins.</p>
+			<p>This paragraph has 32-pixel top and bottom margins.</p>
+		</div>
 
-		<div class="spacer-large"></div>
+		<section>
+			<div class="space-remover-large"></div>
+			<p>This paragraph has 32-pixel top and bottom margins,
+				but it is preceded and followed by a block space remover.
+			</p>
+			<div class="space-remover-large"></div>
+			<p>This paragraph has 32-pixel top and bottom margins,
+			    but it is preceded and followed by a block space remover.
+			</p>
+			<div class="space-remover-large"></div>
+		</section>
 
-		<p>This paragraph is preceded by the same block spacer.</p>
-		<p>This paragraph is not preceded by a block spacer.</p>
-		
 	</body>
 
 </html>

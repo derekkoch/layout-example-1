@@ -4,8 +4,15 @@ body {
 	margin-left: 20px;
 }
 
+.section {
+	border: 2px solid black;
+	display: block;
+	margin-bottom: 32px;
+}
+
 p {
-	margin: 0;
+	margin-top: 32px;
+	margin-bottom: 32px;
 	padding: 5px;
 	background-color: gold;
 	border-top: 1px gray solid;
@@ -14,6 +21,11 @@ p {
 	border-left: 1px gray solid;
 }
 
-.spacer-large {
-	padding-bottom: 32px;
+section {
+	border: 2px solid black;
+	display: block;
+}
+
+.space-remover-large {
+	margin-top: -32px;
 }
