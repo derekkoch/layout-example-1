@@ -1,40 +1,19 @@
 body {
 	font-family: "Arial", sans-serif;
 	font-size: 18px;
-}
-
-h1 {
 	margin-left: 20px;
 }
 
 p {
+	margin: 0;
+	padding: 5px;
 	background-color: gold;
-	text-align: center;
 	border-top: 1px gray solid;
 	border-right: 2px black solid;
 	border-bottom: 2px black solid;
 	border-left: 1px gray solid;
-	width: auto;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
-hr {
-	width: auto;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.hr {
-	height: 40px;
-	width: 200px;
-	margin: 0 auto 0 auto;
-	border: 0;
-	background: url("img/hr.png") repeat-x left center;
-	line-height: 1px;
-	font-size: 1px;
-}
-
-.hr hr {
-	display: none;
+.spacer-large {
+	padding-bottom: 32px;
 }
