@@ -1,0 +1,58 @@
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+}
+
+div {
+	position: relative;
+	margin-left: 220px;
+	height: 200px;
+}
+
+h2, p {
+	border: 1px black solid;
+	text-align: center;
+	font-size: .9em;
+}
+
+.g1 {
+	position: absolute;
+	left: -220px;
+	width: 200px;
+	background: url() repeat-y left top gold;
+}
+
+.g2 {
+	position: absolute;
+	left: -220px;
+	margin-top: 80px;
+	width: 200px;
+	background: url() repeat-y right top royalblue;
+}
+
+.g3 {
+	width: 400px;
+	background: url() repeat-x left top white;
+}
+
+.g4 {
+	width: 400px;
+	background: url() repeat-x left top white;
+}
+
+.g5 {
+	width: 400px;
+	background: url() repeat-x left bottom red;
+}
+
+.g6 {
+	width: 400px;
+	background: url() repeat-x left top green;
+}
+
+.g7 {
+	margin-top: 20px;
+	width: 620px;
+	background: url() repeat-x left top, url() repeat-x left bottom green;
+
+}
