@@ -3,40 +3,117 @@ body {
 	font-size: 18px;
 }
 
+.shadowed {
+	padding-right: 12px;
+	padding-bottom: 12px;
+	background: url() right bottom no-repeat;
+}
+
+.screenreader-only {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	border-left: 1px solid silver; 
+	border-right: 1px solid gray; 
+	color: white;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid gray;
+	background-image: url();
+	background-repeat: repeat-x;
+}
+
+.overlay {
+	padding: 2px 4px;
+}
+
 .bg {
-	background: url("bg.gif") bottom left repeat-x white;
+	background: url() top left repeat-x yellow;
 	margin-top: 20px;
 }
 
 .tl {
-	background: url("rc.gif") top left no-repeat;
+	background: url() top left no-repeat;
 }
 
 .br {
-	background: url("rc.gif") bottom right no-repeat;
-}
-
-.tr {
-	background: url("rc.gif") top right no-repeat;
-}
-
-.bl {
-	background: url("rc.gif") bottom left no-repeat;
+	background: url() bottom right no-repeat;
 }
 
 .trc {
-	background: url("rc-trc.gif") top right no-repeat;
+	background: url() top right no-repeat;
 }
 
 .blc {
-	background: url("rc-blc.gif") bottom left no-repeat;
+	background: url() bottom left no-repeat;
 }
 
 .pad {
 	padding: 10px;
 }
 
-.mbg {
-	background: url("rc-trc.gif") top right no-repeat, url("rc-blc.gif") bottom left no-repeat, url("rc.gif") top left no-repeat, url("rc.gif") bottom right no-repeat, url("bg.gif") bottom left repeat-x white;
-	margin-top: 20px;
+.bang-bg {
+	background: url() -48px -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.flag-bg {
+	background: url() -64px -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.star-bg {
+	background: url() -64px -32px;
+	width: 16px;
+	height: 16px;
+} 
+
+.bang-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+.star-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+.flag-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+#states {
+	position: relative;
+	float: left;
+}
+
+#washington {
+	position: absolute;
+	top: 35px;
+	left: 80px;
+}
+
+#oregon {
+	position: absolute;
+	top: 135px;
+	left: 85px;
+}
+
+#idaho {
+	position: absolute;
+	top: 150px; 
+	left: 210px;
 }
