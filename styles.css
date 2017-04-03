@@ -3,10 +3,20 @@ body {
 	font-size: 18px;
 }
 
-.overlay {
-	background: url() repeat;
+#h2 {
+	position: relative;
+	width: 250px;
+	height: 76px;
+	padding: 0;
+	overflow: hidden;
 }
 
-#note1 {
-	background: url() bottom left repeat-x;
+#h2 span {
+	position: absolute;
+	width: 250px;
+	height: 76px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	background: url("img/star.png") repeat-x;
 }
