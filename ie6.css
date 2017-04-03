@@ -3,20 +3,35 @@ body {
 	font-size: 18px;
 }
 
-#h2 {
+.figure {
+	float: left;
 	position: relative;
-	width: 250px;
-	height: 76px;
-	padding: 0;
-	overflow: hidden;
+	color: white;
+	background-color: black;
 }
 
-#h2 span {
+.figure .caption {
 	position: absolute;
-	width: 250px;
-	height: 76px;
+	margin: 15px;
 	left: 0;
 	top: 0;
-	margin: 0;
-	background: url("img/star.png") repeat-x;
+	font-size: 1.05em;
+}
+
+.framed {
+	display: block;
+	border-left: 1px solid gray;
+	border-right: 2px solid black;
+	border-top: 1px solid gray;
+	border-bottom: 2px solid black;
+}
+
+#crater-date {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 518px;
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
 }
