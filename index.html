@@ -10,17 +10,38 @@
 	</head>
 
 	<body>
-		<h1>Shadowed Image</h1>
+		<h1>Rounded Corners</h1>
 
-		<div class="shrinkwrapped">
-			<div class="shadowed">
-				<div class="shadowed-rt">
-					<div class="shadowed-lb">
-						<img src="img/lr.jpg" alt="Crater Lake" width="518" height="389" />
+		<div class="bg">
+			<div class="tl">
+				<div class="br pad">
+					You can nest two divisions to create two opposite rounded corners.
+				</div>
+			</div>
+		</div>
+
+		<div class="bg">
+			<div class="tr">
+				<div class="bl pad">
+					You can nest two divisions to create twp opposite rounded corners.
+				</div>
+			</div>
+		</div>
+
+		<div class="bg">
+			<div class="tl">
+				<div class="br">
+					<div class="trc">
+						<div class="blc pad">
+							You can nest four divisions to create four rounded corners.
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
+		<div class="mbg pad">
+			You can have a single division with multiple backgrounds.
 		</div>
 
 	</body>

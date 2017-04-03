@@ -3,26 +3,40 @@ body {
 	font-size: 18px;
 }
 
-.shrinkwrapped {
-	float: left;
+.bg {
+	background: url("bg.gif") bottom left repeat-x white;
+	margin-top: 20px;
 }
 
-.shadowed {
-	background-image: url();
-	background-position: right bottom;
-	background-repeat: no-repeat;
+.tl {
+	background: url("rc.gif") top left no-repeat;
 }
 
-.shadowed-rt {
-	background-image: url();
-	background-position: right -80px;
-	background-repeat: no-repeat;
+.br {
+	background: url("rc.gif") bottom right no-repeat;
 }
 
-.shadowed-lb {
-	padding-right: 20px;
-	padding-bottom: 20px;
-	background-image: url();
-	background-position: -80px bottom;
-	background-repeat: no-repeat;
+.tr {
+	background: url("rc.gif") top right no-repeat;
+}
+
+.bl {
+	background: url("rc.gif") bottom left no-repeat;
+}
+
+.trc {
+	background: url("rc-trc.gif") top right no-repeat;
+}
+
+.blc {
+	background: url("rc-blc.gif") bottom left no-repeat;
+}
+
+.pad {
+	padding: 10px;
+}
+
+.mbg {
+	background: url("rc-trc.gif") top right no-repeat, url("rc-blc.gif") bottom left no-repeat, url("rc.gif") top left no-repeat, url("rc.gif") bottom right no-repeat, url("bg.gif") bottom left repeat-x white;
+	margin-top: 20px;
 }
