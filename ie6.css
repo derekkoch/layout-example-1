@@ -3,34 +3,28 @@ body {
 	font-size: 18px;
 }
 
-.figure {
-	float: left;
+#crater-lake {
 	position: relative;
-	color: white;
-	background-color: black;
+	padding: 0;
+	width: 700px;
+	height: 500px;
+	background: black url("img/lr.jpg") no-repeat center center;
 }
 
-.figure .caption {
+#crater-lake .caption {
 	position: absolute;
 	margin: 15px;
 	left: 0;
 	top: 0;
 	font-size: 1.05em;
-}
-
-.framed {
-	display: block;
-	border-left: 1px solid gray;
-	border-right: 2px solid black;
-	border-top: 1px solid gray;
-	border-bottom: 2px solid black;
-}
+	color: white;
+}	
 
 #crater-date {
 	position: absolute;
 	left: 0;
 	bottom: 10px;
-	width: 518px;
+	width: 700px;
 	text-align: center;
 	color: white;
 	font-size: 0.8em;
