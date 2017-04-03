@@ -10,36 +10,27 @@
 	</head>
 
 	<body>
-		<h1>Northwestern USA</h1>
+		<h1>Table</h1>
 
-		<div id="states">
-			<img src="img/lr.jpg" width="437" height="328" alt="Northwest" usemap="#nw-map" class="shadowed"/>
+		<h2>Simple Table</h2>
+		<table>
+			<tr>
+				<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
+			</tr>
+			<tr>
+				<th>7</th> <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td>12</td>
+			</tr>
+		</table>
 
-			<a id="washington" href="washington.html" class="overlay">Washington</a>
-			<a id="oregon" href="oregon.html" class="overlay">Oregon</a>
-			<a id="idaho" href="idaho.html" class="overlay">Idaho</a>
-
-			<a id="olympia" class="bang-bg" href="olympia.html" title="Olympia">
-				<span class="screenreader-only">Olympia</span>
-			</a>
-			<a id="salem" class="flag-bg" href="salem.html" title="Salem">
-				<span class="screenreader-only">Salem</span>
-			</a>
-
-			<div id="info" class="bg">
-				<div class="tl">
-					<div class="br">
-						<div class="trc">
-							<div class="blc pad">
-								<p>Click a state to load information about that state.</p>
-								<p>Click a symbol to load information about that location.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
+		<h2>Table with Spanned Rows and Cells</h2>
+		<table>
+			<tr>
+				<td rowspan="2">1</td> <td colspan="5">2-6</td>
+			</tr>
+			<tr>
+				<td>8</td> <td>9</td> <td> </td> <td>&nbsp;</td> <td>12</td>
+			</tr>
+		</table>
 
 	</body>
 

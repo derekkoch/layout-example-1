@@ -1,119 +1,38 @@
 body {
-	font-family: "Arial", sans-serif;
+	font-family: "Verdana", sans-serif;
 	font-size: 18px;
 }
 
-.shadowed {
-	padding-right: 12px;
-	padding-bottom: 12px;
-	background: url() right bottom no-repeat;
+h1 {
+	font-size: 2em;
+	font-weight: bold;
 }
 
-.screenreader-only {
-	position: absolute;
-	left: -9999px;
-	top: -9999px;
-	width: 1px;
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+table {
+	width: auto;
+	height: 1px;
+	table-layout: auto;
+	border-collapse:collapse;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+td, th {
+	width: 50px;
 	height: 1px;
 	overflow: hidden;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	border-left: 1px solid silver; 
-	border-right: 1px solid gray; 
-	color: white;
-	border-top: 1px solid silver;
-	border-bottom: 1px solid gray;
-	background-image: url();
-	background-repeat: repeat-x;
-}
-
-.overlay {
-	padding: 2px 4px;
-}
-
-.bg {
-	background: url() top left repeat-x yellow;
-	margin-top: 20px;
-}
-
-.tl {
-	background: url() top left no-repeat;
-}
-
-.br {
-	background: url() bottom right no-repeat;
-}
-
-.trc {
-	background: url() top right no-repeat;
-}
-
-.blc {
-	background: url() bottom left no-repeat;
-}
-
-.pad {
-	padding: 10px;
-}
-
-.bang-bg {
-	background: url() -48px -16px;
-	width: 16px;
-	height: 16px;
-}
-
-.flag-bg {
-	background: url() -64px -16px;
-	width: 16px;
-	height: 16px;
-}
-
-.star-bg {
-	background: url() -64px -32px;
-	width: 16px;
-	height: 16px;
-} 
-
-.bang-bg:hover {
-	background-image: url();
-	background-color: black;
-}
-
-.star-bg:hover {
-	background-image: url();
-	background-color: black;
-}
-
-.flag-bg:hover {
-	background-image: url();
-	background-color: black;
-}
-
-#states {
-	position: relative;
-	float: left;
-}
-
-#washington {
-	position: absolute;
-	top: 35px;
-	left: 80px;
-}
-
-#oregon {
-	position: absolute;
-	top: 135px;
-	left: 85px;
-}
-
-#idaho {
-	position: absolute;
-	top: 150px; 
-	left: 210px;
+	visibility: visible;
+	border: 1px solid black;
+	padding: 5px;
+	background: gold;
+	text-align: center;
+	vertical-align: middle;
+	text-indent: 5px;
 }
