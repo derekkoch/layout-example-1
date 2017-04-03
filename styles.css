@@ -3,44 +3,26 @@ body {
 	font-size: 18px;
 }
 
-.bang-bg {
-	background: url() -48px -16px;
-	width: 16px;
-	height: 16px;
+.shrinkwrapped {
+	float: left;
 }
 
-.flag-bg {
-	background: url() -64px -16px;
-	width: 16px;
-	height: 16px;
-}
-
-.star-bg {
-	background: url() -64px -32px;
-	width: 16px;
-	height: 16px;
-}
-
-.star-bg:hover {
+.shadowed {
 	background-image: url();
-	background-color: black;
+	background-position: right bottom;
+	background-repeat: no-repeat;
 }
 
-.flag-bg:hover {
+.shadowed-rt {
 	background-image: url();
-	background-color: black;
+	background-position: right -80px;
+	background-repeat: no-repeat;
 }
 
-.bang-bg:hover {
+.shadowed-lb {
+	padding-right: 20px;
+	padding-bottom: 20px;
 	background-image: url();
-	background-color: black;
-}
-
-.screenreader-only {
-	position: absolute;
-	left: -9999px;
-	top: -9999px;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
+	background-position: -80px bottom;
+	background-repeat: no-repeat;
 }
