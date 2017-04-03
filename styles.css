@@ -3,29 +3,44 @@ body {
 	font-size: 18px;
 }
 
-#crater-lake {
-	position: relative;
-	padding: 0;
-	width: 700px;
-	height: 500px;
-	background: black url("img/lr.jpg") no-repeat center center;
+.bang-bg {
+	background: url() -48px -16px;
+	width: 16px;
+	height: 16px;
 }
 
-#crater-lake .caption {
-	position: absolute;
-	margin: 15px;
-	left: 0;
-	top: 0;
-	font-size: 1.05em;
-	color: white;
-}	
+.flag-bg {
+	background: url() -64px -16px;
+	width: 16px;
+	height: 16px;
+}
 
-#crater-date {
+.star-bg {
+	background: url() -64px -32px;
+	width: 16px;
+	height: 16px;
+}
+
+.star-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+.flag-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+.bang-bg:hover {
+	background-image: url();
+	background-color: black;
+}
+
+.screenreader-only {
 	position: absolute;
-	left: 0;
-	bottom: 10px;
-	width: 700px;
-	text-align: center;
-	color: white;
-	font-size: 0.8em;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
