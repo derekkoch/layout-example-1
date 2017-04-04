@@ -10,26 +10,20 @@
 	</head>
 
 	<body>
-		<h1>Table</h1>
+		<h1>Row and Column Groups</h1>
 
-		<h2>Simple Table</h2>
-		<table>
-			<tr>
-				<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
-			</tr>
-			<tr>
-				<th>7</th> <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td>12</td>
-			</tr>
+		<h2>Row Groups</h2>
+		<table class="example1">
+			<thead><tr> <th>thead</th> <th>2</th> <th>3</th> <th>4</th> </tr></thead>
+			<tfoot><tr> <th>tfoot</th> <th>10</th> <th>11</th> <th>12</th> </tr></tfoot>
+			<tbody><tr> <th>tbody</th> <th>6</th> <th>7</th> <th>8</th> </tr></tbody>
 		</table>
 
-		<h2>Table with Spanned Rows and Cells</h2>
-		<table>
-			<tr>
-				<td rowspan="2">1</td> <td colspan="5">2-6</td>
-			</tr>
-			<tr>
-				<td>8</td> <td>9</td> <td> </td> <td>&nbsp;</td> <td>12</td>
-			</tr>
+		<h2>Column Groups</h2>
+		<table class="example2">
+			<colgroup><col class="col1" /> <col class="col2" /> <col class="col3" /> <col class="col4" /> <col class="col5" /> <col class="col6" /> </colgroup>
+			<tr> <td rowspan="2">1</td> <td colspan="5">2-6</td> </tr>
+			<tr> <td>8</td> <td>9</td> <td> </td> <td>&nbsp;</td> <td>12</td> </tr>
 		</table>
 
 	</body>

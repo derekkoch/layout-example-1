@@ -10,19 +10,59 @@ h1 {
 
 h2 {
 	font-size: 1.2em;
-	font-weight: normal;
 	font-style: italic;
-	margin-bottom: 0;
+	font-weight: normal;
 }
 
 table {
 	width: auto;
 	height: 1px;
+	overflow: hidden;
 	table-layout: auto;
-	border-collapse:collapse;
+	border-collapse: collapse;
 	margin-left: 20px;
 	border: 1px solid black;
 }
+
+table.example1 thead {
+	background-color: orange;
+	color: black;
+}
+
+table.example1 tbody {
+	background-color: gold;
+	color: black;
+}
+
+table.example1 tfoot {
+	background-color: firebrick;
+	color: white;
+}
+
+.col1 {
+	background: wheat;
+}
+
+.col2 {
+	background: gold;
+}
+
+.col3 {
+	background: orange;
+}
+
+.col4 {
+	background: tomato;
+}
+
+.col5 {
+	background: firebrick;
+}
+
+.col6 {
+	background: black;
+	color: white;
+} 
 
 td, th {
 	width: 50px;
@@ -31,8 +71,6 @@ td, th {
 	visibility: visible;
 	border: 1px solid black;
 	padding: 5px;
-	background: gold;
 	text-align: center;
 	vertical-align: middle;
-	text-indent: 5px;
 }
