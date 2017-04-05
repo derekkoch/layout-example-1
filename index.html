@@ -10,20 +10,30 @@
 	</head>
 
 	<body>
-		<h1>Row and Column Groups</h1>
+		<h1>Table Selectors</h1>
 
-		<h2>Row Groups</h2>
-		<table class="example1">
-			<thead><tr> <th>thead</th> <th>2</th> <th>3</th> <th>4</th> </tr></thead>
-			<tfoot><tr> <th>tfoot</th> <th>10</th> <th>11</th> <th>12</th> </tr></tfoot>
-			<tbody><tr> <th>tbody</th> <th>6</th> <th>7</th> <th>8</th> </tr></tbody>
-		</table>
+		<table id="t1">
+			<thead>
+				<tr class="r1"> <td class="c1">r1 c1</td>	<td class="c2">c2</td>
+								<td class="c3">c3</td>		<td class="c4">c4</td>
+								<td class="c5">c5</td>		<td class="c6">c6</td>
+				</tr>
+			</thead>
 
-		<h2>Column Groups</h2>
-		<table class="example2">
-			<colgroup><col class="col1" /> <col class="col2" /> <col class="col3" /> <col class="col4" /> <col class="col5" /> <col class="col6" /> </colgroup>
-			<tr> <td rowspan="2">1</td> <td colspan="5">2-6</td> </tr>
-			<tr> <td>8</td> <td>9</td> <td> </td> <td>&nbsp;</td> <td>12</td> </tr>
+			<tfoot>	
+				<tr class="r3"> <td class="c1">r3 c1</td>	<td class="c2">c2</td>
+								<td class="c3">c3</td>		<td class="c4">c4</td>
+								<td class="c5">c5</td>		<td class="c6">c6</td>
+				</tr>
+			</tfoot>
+
+			<tbody class="b1">
+				<tr class="r2"> <td class="c1">r2 c1</td>	<td class="c2">c2</td>
+								<td class="c3">c3</td>		<td class="c4">c4</td>
+								<td class="c5">c5</td>		<td class="c6">c6</td>
+				</tr>
+			</tbody>
+
 		</table>
 
 	</body>
