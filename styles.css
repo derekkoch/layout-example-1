@@ -9,57 +9,30 @@ h1 {
 	font-weight: bold;
 }
 
-table, td, th {
-	border: 1px solid black;
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
 }
 
-td, th {
-	background-color: white;
+table {
+	border-collapse: separate;
+}
+
+td {
+	background-color: gold;
 	width: 75px;
 	text-align: center;
 }
 
-#t1 {
-	border-collapse: collapse;
+.boxed-table {
+	border: 1px solid black;
 }
 
-#t1 thead td {
-	font-weight: bold;
+.boxed-cells td {
+	border: 1px solid black;
 }
 
-#t1 tfoot td {
-	font-style: italic;
-}
-
-#t1 tbody td {
-	font-variant: small-caps;
-}
-
-#t1 .b1 td {
-	font-size: 1.2em;
-}
-
-#t1 .c3 {
-	display: none;
-}
-
-#t1 .c4 {
-	background-color: firebrick;
-	color: white;
-}
-/* Below, #t1, .r1 selects a row...no effect. */
-
-#t1 .r1 {
-	background-color: gold;
-	color: black;
-}
-
-#t1 .r2 td {
-	background-color: gold;
-	color: black;
-}
-
-#t1 .r2 .c6 {
-	font-size: 1.8em;
-	font-weight: bold;
+.boxed-cells td.x {
+	border: none;
 }
