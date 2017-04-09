@@ -9,30 +9,68 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
-	font-size: 1.2em;
-	font-weight: normal;
-	font-style: italic;
-}
-
 table {
 	border-collapse: collapse;
 }
 
-td {
+table, td, th {
+	border: 5px solid red;
 	background-color: gold;
+}
+
+td {
 	width: 75px;
 	text-align: center;
 }
 
-.boxed-table {
-	border: 1px solid black;
+#t1 {
+	border-left: 1px solid black;
 }
 
-.boxed-cells td {
-	border: 1px solid black;
+#t1 .c1 {
+	border-left: 1px solid black;
 }
 
-.boxed-cells td.x {
-	border: none;
+#t1 {
+	border-right: 2px solid black;
+}
+
+#t1 .c2 {
+	border-right: 2px solid black;
+}
+
+#t1 .c1 {
+	border-right: 1px dotted black;
+}
+
+#t1 .c2 {
+	border-left: 1px dotted black;
+}
+
+#t1 {
+	border-top: 1px solid black;
+}
+
+#t1 .r1 td {
+	border-top: 1px solid black;
+}
+
+#t1 {
+	border-bottom: 2px solid black;
+}
+
+#t1 .r2 td {
+	border-bottom: 2px solid black;
+}
+
+#t1 .r1 td {
+	border-bottom: 1px dotted black;
+}
+
+#t1 .r1 td {
+	border-bottom: 1px dotted black;
+}
+
+#t1 .r2 td {
+	border-top: 1px dotted black;
 }
