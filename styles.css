@@ -23,7 +23,27 @@ td {
 	table-layout: auto;
 }
 
-.shrinkwrap {
+.fixed-layout {
+	table-layout: fixed;
+}
+
+.shrinkwrapped {
 	width: auto;
+}
+
+.min-width1 {
+	width: 1px;
+}
+
+.min-width2 {
+	width: 700px;
+}
+
+.sized1 {
+	width: 200px;
+}
+
+.sized2 {
+	width: 300px;
 }
 
