@@ -14,21 +14,27 @@ h2 {
 	font-style: italic;
 }
 
-div, span {
+td {
 	border: 1px solid black;
-	background: gold;
-	padding: 5px;
+	background: palegreen;
 }
 
-.tabled {
-	display: table;
-	border: collapse;
+.auto-layout {
+	table-layout: auto;
 }
 
-.rowed {
-	display: table-row;
+.fixed-layout {
+	table-layout: fixed;
 }
 
-.celled {
-	display: table-cell;
+.shrinkwrapped {
+	width: auto;
+}
+
+.sized {
+	width: 350px;
+}
+
+.stretched {
+	width: 100%;
 }

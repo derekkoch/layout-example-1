@@ -10,34 +10,27 @@
 	</head>
 
 	<body>
-		<h1>Tabled, Rowed, and Celled</h1>
+		<h1>Table Layout</h1>
 
-		<h2>Before</h2>
+		<h2>Shrinkwrapped Table</h2>
+		<table class="auto-layout shrinkwrapped">
+			<tr><td>auto</td><td>auto</td></tr>
+		</table>
 
-		<div>
-			<div>	
-				<div>division</div>
-				<div>division</div>
-			</div>
+		<h2>Sized Table</h2>
+		<table class="auto-layout sized">
+			<tr><td>auto</td><td>auto</td></tr>
+		</table>
 
-			<span>
-				<span>span</span>
-				<span>span</span>
-			</span>
-		</div>
+		<h2>Stretched Table</h2>
+		<table class="auto-layout stretched">
+			<tr><td>auto</td><td>auto</td></tr>
+		</table>
 
-		<h2>After being rendered as a table with rows and cells</h2>
-		
-		<div class="tabled">
-			<div class="rowed">
-				<div class="celled">division</div>
-				<div class="celled">division</div>
-			</div>
-			<span class="rowed">
-				<span class="celled">span</span>
-				<span class="celled">span</span>
-			</span>
-		</div>
+		<h2>Fixed Table</h2>
+		<table class="fixed-layout sized">
+			<tr><td>auto</td><td>auto</td></tr>
+		</table>
 
 	</body>
 
