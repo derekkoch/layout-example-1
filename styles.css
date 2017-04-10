@@ -9,27 +9,52 @@ h1 {
 	font-weight: bold;
 }
 
-.collapsed {
+#t1 {
+	display: inline;
 	border-collapse: collapse;
+	padding-right: 100px;
 }
 
-.separated {
+#t2 {
+	display: inline;
 	border-collapse: separate;
-}
-
-table, td, th {
-	border: 1px solid black;
 }
 
 td {
 	width: 75px;
 	text-align: center;
 	background-color: gold;
+	border: 1px solid black;
 }
-.x {
+
+#t1 .c2 {
 	display: none;
 }
 
-.h {
+#t1 .c3 {
 	visibility: hidden;
+}
+
+#t1 .r2 {
+	visibility: hidden;
+}
+
+#t1 .b2 {
+	display: none;
+}
+
+#t2 .c2 {
+	display: none;
+}
+
+#t2 .c3 {
+	visibility: hidden;
+}
+
+#t2 .r2 {
+	visibility: hidden;
+}
+
+#t2 .b2 {
+	display: none;
 }
