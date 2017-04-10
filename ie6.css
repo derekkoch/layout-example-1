@@ -19,22 +19,36 @@ td {
 	background: palegreen;
 }
 
+.i {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
 .auto-layout {
 	table-layout: auto;
 }
 
-.fixed-layout {
-	table-layout: fixed;
+.sized {
+	width: 700px;
 }
 
-.shrinkwrapped {
+.a {
 	width: auto;
 }
 
-.sized {
-	width: 350px;
+.b {
+	width: 75px;
 }
 
-.stretched {
-	width: 100%;
+.c {
+	width: 150px;
+}
+
+.d {
+	width: 10%;
+}
+
+.e {
+	width: 50%;
 }

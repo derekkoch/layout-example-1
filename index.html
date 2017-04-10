@@ -10,26 +10,35 @@
 	</head>
 
 	<body>
-		<h1>Table Layout</h1>
+		<h1>Column Width</h1>
+		<h2>Percentage widths trump fixed widths, which trump auto widths.</h2>
 
-		<h2>Shrinkwrapped Table</h2>
-		<table class="auto-layout shrinkwrapped">
-			<tr><td>auto</td><td>auto</td></tr>
-		</table>
-
-		<h2>Sized Table</h2>
 		<table class="auto-layout sized">
-			<tr><td>auto</td><td>auto</td></tr>
-		</table>
+			<tr>
+				<td class="a i">auto</td><td class="a">auto</td> <td class="a">auto</td>
+				<td class="a">auto</td> <td class="a">auto</td>
+			</tr>
 
-		<h2>Stretched Table</h2>
-		<table class="auto-layout stretched">
-			<tr><td>auto</td><td>auto</td></tr>
-		</table>
+			<tr>
+				<td class="a">auto</td><td class="b i">75px</td> <td class="b">75px</td>
+				<td class="b">75px</td> <td class="b">75px</td>
+			</tr>
 
-		<h2>Fixed Table</h2>
-		<table class="fixed-layout sized">
-			<tr><td>auto</td><td>auto</td></tr>
+			<tr>
+				<td class="a">auto</td><td class="a">auto</td> <td class="c i">150px</td>
+				<td class="c">150px</td> <td class="c">150px</td>
+			</tr>
+
+			<tr>
+				<td class="a">auto</td><td class="a">auto</td> <td class="a">auto</td>
+				<td class="d i">10%</td> <td class="d">10%</td>
+			</tr>
+
+			<tr>
+				<td class="a">auto</td><td class="a">auto</td> <td class="a">auto</td>
+				<td class="a">auto</td> <td class="e i">50%</td>
+			</tr>
+
 		</table>
 
 	</body>
