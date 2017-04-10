@@ -10,12 +10,22 @@
 	</head>
 
 	<body>
-		<h1>Styled Collapsed Borders</h1>
+		<h1>Hidden and Removed Cells</h1>
 
-		<table id="t1">
-			<tr class="r1"> <td class="c1">1</td> <td class="c2">2</td> </tr>
-			<tr class="r2"> <td class="c1">1</td> <td class="c2">2</td> </tr>
+		<h3>Cell 1 is hidden and Cell 3 is removed. <br /> This moves cell 4 into cell 3's place and creates a missing cell at the end.</h3>
+
+		<br /><div>Collapsed Borders</div>
+		<table class="collapsed" cellspacing="0">
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td class="h">1</td><td>2</td><td class="x">3</td><td>4</td></tr>
 		</table>
+
+		<br /><div>Separated Borders</div>
+		<table class="separated" cellspacing="5">
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td class="h">1</td><td>2</td><td class="x">3</td><td>4</td></tr>
+		</table>
+
 
 	</body>
 

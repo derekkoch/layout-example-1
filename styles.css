@@ -9,68 +9,27 @@ h1 {
 	font-weight: bold;
 }
 
-table {
+.collapsed {
 	border-collapse: collapse;
 }
 
+.separated {
+	border-collapse: separate;
+}
+
 table, td, th {
-	border: 5px solid red;
-	background-color: gold;
+	border: 1px solid black;
 }
 
 td {
 	width: 75px;
 	text-align: center;
+	background-color: gold;
+}
+.x {
+	display: none;
 }
 
-#t1 {
-	border-left: 1px solid black;
-}
-
-#t1 .c1 {
-	border-left: 1px solid black;
-}
-
-#t1 {
-	border-right: 2px solid black;
-}
-
-#t1 .c2 {
-	border-right: 2px solid black;
-}
-
-#t1 .c1 {
-	border-right: 1px dotted black;
-}
-
-#t1 .c2 {
-	border-left: 1px dotted black;
-}
-
-#t1 {
-	border-top: 1px solid black;
-}
-
-#t1 .r1 td {
-	border-top: 1px solid black;
-}
-
-#t1 {
-	border-bottom: 2px solid black;
-}
-
-#t1 .r2 td {
-	border-bottom: 2px solid black;
-}
-
-#t1 .r1 td {
-	border-bottom: 1px dotted black;
-}
-
-#t1 .r1 td {
-	border-bottom: 1px dotted black;
-}
-
-#t1 .r2 td {
-	border-top: 1px dotted black;
+.h {
+	visibility: hidden;
 }
