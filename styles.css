@@ -9,46 +9,21 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
-	font-size: 1.2em;
-	font-style: italic;
+table {
+	border-collapse: collapse;
 }
 
 td {
 	border: 1px solid black;
-	background: palegreen;
-}
-
-.i {
-	background-color: black;
-	color: white;
-	font-weight: bold;
+	background: lightblue;
+	overflow: hidden;
 }
 
 .auto-layout {
 	table-layout: auto;
 }
 
-.sized {
-	width: 700px;
-}
-
-.a {
+.shrinkwrap {
 	width: auto;
 }
 
-.b {
-	width: 75px;
-}
-
-.c {
-	width: 150px;
-}
-
-.d {
-	width: 10%;
-}
-
-.e {
-	width: 50%;
-}
