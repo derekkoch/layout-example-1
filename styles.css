@@ -9,52 +9,22 @@ h1 {
 	font-weight: bold;
 }
 
-#t1 {
-	display: inline;
-	border-collapse: collapse;
-	padding-right: 100px;
-}
-
-#t2 {
-	display: inline;
-	border-collapse: separate;
-}
-
 td {
-	width: 75px;
-	text-align: center;
-	background-color: gold;
 	border: 1px solid black;
+	background: gold;
 }
 
-#t1 .c2 {
-	display: none;
+.align-top {
+	height: 200px;
+	vertical-align: top;
 }
 
-#t1 .c3 {
-	visibility: hidden;
+.align-middle {
+	height: 200px;
+	vertical-align: middle;
 }
 
-#t1 .r2 {
-	visibility: hidden;
-}
-
-#t1 .b2 {
-	display: none;
-}
-
-#t2 .c2 {
-	display: none;
-}
-
-#t2 .c3 {
-	visibility: hidden;
-}
-
-#t2 .r2 {
-	visibility: hidden;
-}
-
-#t2 .b2 {
-	display: none;
+.align-bottom {
+	height: 200px;
+	vertical-align: bottom;
 }
