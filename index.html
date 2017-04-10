@@ -10,30 +10,34 @@
 	</head>
 
 	<body>
-		<h1>Striped Tables</h1>
+		<h1>Tabled, Rowed, and Celled</h1>
 
-		<table id="t1">
-			<tr class="r1 odd"> <td class="c1">r1 c1</td>	<td class="c2">c2</td>
-								<td class="c3">   c3</td>	<td class="c4">c4</td>
-			</tr>
+		<h2>Before</h2>
 
-			<tr class="r2">		<td class="c1">r2 c1</td>	<td class="c2">c2</td>
-								<td class="c3">   c3</td>	<td class="c4">c4</td>
-			</tr>
+		<div>
+			<div>	
+				<div>division</div>
+				<div>division</div>
+			</div>
 
-			<tr class="r3 odd"> <td class="c1">r3 c1</td>	<td class="c2">c2</td>
-								<td class="c3">r3 c3</td>	<td class="c4">c4</td>
-			</tr>
+			<span>
+				<span>span</span>
+				<span>span</span>
+			</span>
+		</div>
 
-			<tr class="r4">		<td class="c1">r4 c1</td>	<td class="c2">c2</td>
-								<td class="c3">   c3</td>	<td class="c4">c4</td>
-			</tr>
-
-			<tr class="r5 odd"> <td class="c1">r5 c1</td>	<td class="c2">c2</td>
-								<td class="c3">   c3</td>	<td class="c4">c4</td>
-			</tr>
-
-		</table>
+		<h2>After being rendered as a table with rows and cells</h2>
+		
+		<div class="tabled">
+			<div class="rowed">
+				<div class="celled">division</div>
+				<div class="celled">division</div>
+			</div>
+			<span class="rowed">
+				<span class="celled">span</span>
+				<span class="celled">span</span>
+			</span>
+		</div>
 
 	</body>
 

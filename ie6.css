@@ -9,18 +9,26 @@ h1 {
 	font-weight: bold;
 }
 
-td {
+h2 {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+div, span {
 	border: 1px solid black;
-	text-align: center;
-	background: white;
-	width: 50px;
+	background: gold;
+	padding: 5px;
 }
 
-#ts .odd td {
-	background: palegreen;
+.tabled {
+	display: table;
+	border: collapse;
 }
 
-#t1 td.c3 {
-	background: darkgreen;
-	color: white;
+.rowed {
+	display: table-row;
+}
+
+.celled {
+	display: table-cell;
 }
