@@ -11,20 +11,16 @@ h1 {
 
 td {
 	border: 1px solid black;
-	background: gold;
+	text-align: center;
+	background: white;
+	width: 50px;
 }
 
-.align-top {
-	height: 200px;
-	vertical-align: top;
+#ts .odd td {
+	background: palegreen;
 }
 
-.align-middle {
-	height: 200px;
-	vertical-align: middle;
-}
-
-.align-bottom {
-	height: 200px;
-	vertical-align: bottom;
+#t1 td.c3 {
+	background: darkgreen;
+	color: white;
 }
