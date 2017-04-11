@@ -17,11 +17,12 @@ h2 {
 
 table {
 	border-collapse: collapse;
+	margin: 10px;
 }
 
 td {
 	border: 1px solid black;
-	background: lightblue;
+	background: magenta;
 	overflow: hidden;
 }
 
@@ -29,18 +30,14 @@ td {
 	table-layout: auto;
 }
 
-.sized {
-	width: 700px;
+.shrinkwrapped {
+	width: auto;
 }
 
 .p1 {
-	width: 20%;
+	width: 10%;
 }
 
 .p2 {
-	width: 80%;
-}
-
-.p3 {
 	width: 50%;
 }
