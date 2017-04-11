@@ -9,6 +9,12 @@ h1 {
 	font-weight: bold;
 }
 
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
+}
+
 table {
 	border-collapse: collapse;
 }
@@ -27,23 +33,21 @@ td {
 	table-layout: fixed;
 }
 
+.sized {
+	width: 700px;
+}
+
 .shrinkwrapped {
 	width: auto;
 }
 
-.min-width1 {
-	width: 1px;
+.stretched {
+	width: 100%;
 }
 
-.min-width2 {
-	width: 700px;
+.auto-width: {
+	width: auto;
 }
 
-.sized1 {
-	width: 200px;
-}
 
-.sized2 {
-	width: 300px;
-}
 
