@@ -10,29 +10,29 @@
 	</head>
 
 	<body>
-		<h1>Content-proportioned Columns</h1>
+		<h1>Size-proportioned Columns</h1>
 
-		<h2>Sized Table</h2>
-		<table class="auto-layout sized">
-			<tr> 
-				<td class="auto-width">auto</td> 
-				<td class="auto-width">auto (more content - more width)</td>
-			</tr>
-		</table>
-
-		<h2>Stretched Table</h2>
+		<h2>Sized or Stretched Table</h2>
 		<table class="auto-layout stretched">
-			<tr>
-				<td class="auto-width">auto (same content - same width)</td>
-				<td class="auto-width">auto (same content - same width)</td>
+			<tr> 
+				<td class="size3">100px</td> 
+				<td class="size4">300px</td>
 			</tr>
 		</table>
 
 		<h2>Shrinkwrapped Table</h2>
 		<table class="auto-layout shrinkwrapped">
 			<tr>
-				<td class="auto-width">auto (less content - less width)</td>
-				<td class="auto-width">auto (extra content turns shrinkwrapped columns into content-proportioned columns)</td>
+				<td class="size1">1000px</td>
+				<td class="size2">3000px</td>
+			</tr>
+		</table>
+
+		<h2>Fixed Table</h2>
+		<table class="fixed-layout sized">
+			<tr>
+				<td class="size3">100px</td>
+				<td class="size4">300px</td>
 			</tr>
 		</table>
 

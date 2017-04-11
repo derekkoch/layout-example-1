@@ -45,9 +45,19 @@ td {
 	width: 100%;
 }
 
-.auto-width: {
-	width: auto;
+.size1 {
+	width: 1000px;
 }
 
+.size2 {
+	width: 3000px;
+}
 
+.size3 {
+	width: 100px;
+}
+
+.size4 {
+	width: 300px;
+}
 
