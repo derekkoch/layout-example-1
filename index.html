@@ -10,29 +10,36 @@
 	</head>
 
 	<body>
-		<h1>Size-proportioned Columns</h1>
+		<h1>Percentage-Proportioned Columns</h1>
 
 		<h2>Sized or Stretched Table</h2>
-		<table class="auto-layout stretched">
-			<tr> 
-				<td class="size3">100px</td> 
-				<td class="size4">300px</td>
+		<table class="auto-layout sized">
+			<tr>
+				<td class="p3">50%</td> <td class="p3">50%</td>
 			</tr>
 		</table>
 
-		<h2>Shrinkwrapped Table</h2>
-		<table class="auto-layout shrinkwrapped">
+		<table class="auto-layout sized">
 			<tr>
-				<td class="size1">1000px</td>
-				<td class="size2">3000px</td>
+				<td class="p1">20%</td> <td class="p1">20%</td>
 			</tr>
 		</table>
 
-		<h2>Fixed Table</h2>
-		<table class="fixed-layout sized">
+		<table class="auto-layout sized">
 			<tr>
-				<td class="size3">100px</td>
-				<td class="size4">300px</td>
+				<td class="p2">80%</td> <td class="p2">80%</td>
+			</tr>
+		</table>
+
+		<table class="auto-layout sized">
+			<tr>
+				<td class="p2">80%</td> <td class="p1">20%</td>
+			</tr>
+		</table>
+
+		<table class="auto-layout sized">
+			<tr>
+				<td class="p2">80%</td> <td class="p1">20%</td> <td class="p3">50%</td>
 			</tr>
 		</table>
 

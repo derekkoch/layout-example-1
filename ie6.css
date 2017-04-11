@@ -29,35 +29,18 @@ td {
 	table-layout: auto;
 }
 
-.fixed-layout {
-	table-layout: fixed;
-}
-
 .sized {
 	width: 700px;
 }
 
-.shrinkwrapped {
-	width: auto;
+.p1 {
+	width: 20%;
 }
 
-.stretched {
-	width: 100%;
+.p2 {
+	width: 80%;
 }
 
-.size1 {
-	width: 1000px;
+.p3 {
+	width: 50%;
 }
-
-.size2 {
-	width: 3000px;
-}
-
-.size3 {
-	width: 100px;
-}
-
-.size4 {
-	width: 300px;
-}
-
