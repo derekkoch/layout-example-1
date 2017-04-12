@@ -21,8 +21,9 @@ table {
 }
 
 td {
-	border: 1px solid black;
-	background: magenta;
+	border: 1px solid white;
+	background: indigo;
+	color: white;
 	overflow: hidden;
 }
 
@@ -34,10 +35,38 @@ td {
 	width: auto;
 }
 
-.p1 {
+.p2 {
+	width: 50%;
+}
+
+.p3 {
+	width: 33.5%;
+}
+
+.p4 {
+	width: 25%;
+}
+
+.p5 {
 	width: 20%;
 }
 
-.p2 {
-	width: 50%;
+.p6 {
+	width: 16.5%;
+}
+
+.p7 {
+	width: 14.1%;
+}
+
+.p8 {
+	width: 12.3%;
+}
+
+.p9 {
+	width: 11%;
+}
+
+.p10 {
+	width: 10%;
 }
