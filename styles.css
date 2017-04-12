@@ -31,8 +31,8 @@ td {
 	table-layout: auto;
 }
 
-.shrinkwrapped {
-	width: auto;
+.sized {
+	width: 700px;
 }
 
 .p2 {
