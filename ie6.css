@@ -31,42 +31,22 @@ td {
 	table-layout: auto;
 }
 
+.fixed-layout {
+	table-layout: fixed;
+}
+
 .sized {
 	width: 700px;
 }
 
-.p2 {
-	width: 50%;
+.stretched {
+	width: 100%;
 }
 
-.p3 {
-	width: 33.5%;
+.undersized {
+	width: 18px;
 }
 
-.p4 {
-	width: 25%;
-}
-
-.p5 {
-	width: 20%;
-}
-
-.p6 {
-	width: 16.5%;
-}
-
-.p7 {
-	width: 14.1%;
-}
-
-.p8 {
-	width: 12.3%;
-}
-
-.p9 {
-	width: 11%;
-}
-
-.p10 {
-	width: 10%;
+.flex {
+	width: auto;
 }
