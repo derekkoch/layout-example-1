@@ -21,9 +21,7 @@ table {
 }
 
 td {
-	border: 1px solid white;
-	background: indigo;
-	color: white;
+	border: 1px solid black;
 	overflow: hidden;
 }
 
@@ -43,10 +41,26 @@ td {
 	width: 100%;
 }
 
-.undersized {
-	width: 18px;
-}
-
 .flex {
 	width: auto;
+}
+
+.sized1 {
+	width: 200px;
+}
+
+.sized2 {
+	width: 100px;
+}
+
+.sized3 {
+	width: 500px;
+}
+
+.p1 {
+	width: 20%;
+}
+
+.fixed-layout .p1 {
+	padding: 0;
 }

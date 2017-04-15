@@ -10,19 +10,38 @@
 	</head>
 
 	<body>
-		<h1>Undersized Columns</h1>
+		<h1>Flex Columns</h1>
 
-		<h2>Fixed Table</h2>
+		<h2>Sized, Stretched, or Fixed Table</h2>
 		<table class="fixed-layout sized">
 			<tr>
-				<td class="undersized">18px</td> <td class="flex">auto</td>
+				<td class="sized1">200px</td>
+				<td class="p1">20%</td>
+				<td class="sized2">100px</td>
+				<td class="flex">auto flex</td>
+				<td class="flex">auto flex</td>
 			</tr>
 		</table>
 
-		<h2>Sized Table - cannot be undersized</h2>
+		<h2>Sized or Stretched - Oversized</h2>
 		<table class="auto-layout sized">
 			<tr>
-				<td class="undersized">18px</td> <td class="flex">auto</td>
+				<td class="sized1">200px</td>
+				<td class="p1">20%</td>
+				<td class="sized3">500px</td>
+				<td class="flex">auto flex</td>
+				<td class="flex">auto flex</td>
+			</tr>
+		</table>
+
+		<h2>Fixed - Oversized</h2>
+		<table class="fixed-layout sized">
+			<tr>
+				<td class="sized1">200px</td>
+				<td class="p1">20%</td>
+				<td class="sized3">500px</td>
+				<td class="flex">auto flex</td>
+				<td class="flex">auto flex</td>
 			</tr>
 		</table>
 
