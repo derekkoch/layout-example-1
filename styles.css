@@ -46,19 +46,27 @@ td {
 }
 
 .sized1 {
-	width: 200px;
-}
-
-.sized2 {
-	width: 100px;
-}
-
-.sized3 {
 	width: 500px;
 }
 
+.sized2 {
+	width: 200px;
+}
+
 .p1 {
+	width: 10%;
+}
+
+.p2 {
 	width: 20%;
+}
+
+.p3 {
+	width: 40%;
+}
+
+.p4 {
+	width: 80%;
 }
 
 .fixed-layout .p1 {
