@@ -14,40 +14,38 @@ h1 {
 
 h2 {
 	font-size: 1.2em;
-	font-weight: normal;
-	font-style: italic;
+	font-weight: bold;
 }
 
-div {
-	min-width: 100px;
-	background: lightgreen;
-	font-size: 1em;
+.oi {
+	background: gold;
+	border-left: 1px solid gray;
+	border-right: 2px solid black;
+	border-top: 1px solid gray;
+	border-bottom: 2px solid black;
 }
 
-hr {
-	height: 50px;
-	clear: both;
-	visibility: hidden;
-}
-.ex1 {
+#nav {
 	float: left;
-	width: 50%;
+	width: 25%;
+	min-width: 170px;
 }
 
-.ex2 {
-	float: left;
-	width: 50%;
-	border: 1px solid;
+#nav .oi {
+	min-height: 150px;
+	margin: 0;
+	padding: 5px;
 }
 
-.ex3 {
+#main {
 	float: left;
-	width: 45%;
-	margin-left: 5%;
+	width: 75%;
+	min-width: 170px;
 }
 
-.ex4 {
-	float: left;
-	width: 49.75%;
-	margin-left: 5px;
+#main .oi {
+	min-height: 150px;
+	margin-left: 80px;
+	padding: 5px;
+	padding-left: 80px;
 }
