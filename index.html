@@ -10,24 +10,44 @@
 	</head>
 
 	<body>
-		<h1>Fluid Layout Overview</h1>
-	
-		<div id="nav">
-			<h2>Navigation</h2>
+		<h1>Outside-in Box</h1>
 
-			<p>20% of container's width.</p>
+		<h2>Before</h2>
+		<div class="container">
+			<div class="before float">Float</div>
 		</div>
 
-		<div id="main">
-			<h2>Main</h2>
-
-			<p>40% of container's width.</p>
+		<div class="container">
+			<span class="before absolute">Absolute</span>
 		</div>
 
-		<div id="news">
-			<h2>News</h2>
+		<div class="container">
+			<div class="before static">Static</div>
+		</div>
 
-			<p>20% of container's width.</p>
+		<div class="float-divider"></div>
+
+		<h2>After</h2>
+		<div class="container">
+			<div class="after float">
+				<div class="oi">Float</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<span class="after absolute">
+				<span class="oi">
+					Absolute
+				</span>
+			</span>
+		</div>
+
+		<div class="container">
+			<div class="after static">
+				<div class="oi">
+					Static
+				</div>
+			</div>
 		</div>
 
 	</body>
