@@ -1,7 +1,6 @@
 body {
 	font-family: "Verdana", sans-serif;
 	font-size: 18px;
-	padding: 5px;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -17,35 +16,31 @@ h2 {
 	font-weight: bold;
 }
 
-.oi {
+h3 {
+	font-size: 1em;
+	font-weight: bold;
 	background: gold;
+	padding: 2px;
 	border-left: 1px solid gray;
-	border-right: 2px solid black;
 	border-top: 1px solid gray;
+	border-right: 2px solid black;
 	border-bottom: 2px solid black;
 }
 
-#nav {
+.float {
 	float: left;
-	width: 25%;
-	min-width: 170px;
 }
 
-#nav .oi {
-	min-height: 150px;
-	margin: 0;
-	padding: 5px;
+.box {
+	margin-right: 20px;
 }
 
-#main {
-	float: left;
-	width: 75%;
-	min-width: 170px;
+.float-divider {
+	clear: both;
+	margin-bottom: 20px;
+	border-bottom: 5px solid black;
+	font-size: 1px;
+	line-height: 1px;
 }
 
-#main .oi {
-	min-height: 150px;
-	margin-left: 80px;
-	padding: 5px;
-	padding-left: 80px;
-}
+
