@@ -21,26 +21,94 @@ h3 {
 	font-weight: bold;
 	background: gold;
 	padding: 2px;
+}
+
+.float-divider {
+	clear: both;
+	display: block;
+	height: 1px;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.oi1 {
+	background: white;
+	margin: 0;
+	padding: 5px;
+}
+
+.oi2 {
+	background: gold;
+	margin: 5px;
+	padding: 5px;
+}
+
+.oi3 {
+	background: yellow;
+	margin: 5px;
+	padding: 5px;
+}
+
+#main {
+	max-width: 700px;
+}
+
+#nav {
+	float: left;
+	width: 20%;
+	min-width: 75px;
+}
+
+#nav .oi2 {
 	border-left: 1px solid gray;
 	border-top: 1px solid gray;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
 }
 
-.float {
+#content {
 	float: left;
+	width: 60%;
+	min-width: 150px;
 }
 
-.box {
-	margin-right: 20px;
+#news {
+	float: left;
+	width: 20%;
+	min-width: 115px;
 }
 
-.float-divider {
-	clear: both;
-	margin-bottom: 20px;
-	border-bottom: 5px solid black;
-	font-size: 1px;
-	line-height: 1px;
+#news .oi2 {
+	min-height: 43px;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
+#content .oi3 {
+	display: block;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
 
+#content .oi2 {
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#head {
+	float: left;
+	width: 35%;
+	min-width: 75px;
+}
+
+#detail {
+	float: left;
+	width: 65%;
+	min-width: 75px;
+}
