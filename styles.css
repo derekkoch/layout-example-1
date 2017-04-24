@@ -9,6 +9,8 @@ body {
 h1 {
 	font-size: 2em;
 	font-weight: bold;
+	padding: 0;
+	margin: 0;
 }
 
 h2 {
@@ -20,7 +22,27 @@ h3 {
 	font-size: 1em;
 	font-weight: bold;
 	background: gold;
-	padding: 2px;
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	background: gold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+
+#postheader {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding: 5px;
 }
 
 .float-divider {
@@ -31,84 +53,34 @@ h3 {
 	line-height: 1px;
 }
 
-.oi1 {
-	background: white;
+p {
+	font-size: 0.8em;
+	padding: 0;
 	margin: 0;
-	padding: 5px;
 }
 
-.oi2 {
-	background: gold;
-	margin: 5px;
-	padding: 5px;
-}
-
-.oi3 {
-	background: yellow;
-	margin: 5px;
-	padding: 5px;
-}
-
-#main {
-	max-width: 700px;
-}
-
-#nav {
+.breadcrumbs {
 	float: left;
-	width: 20%;
-	min-width: 75px;
+	max-width: 350px;
+	margin-left: 10px;
 }
 
-#nav .oi2 {
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+.post-msg {
+	float: right;
+	max-width: 250px;
+	margin-right: 10px;
 }
 
-#content {
+#title {
 	float: left;
-	width: 60%;
-	min-width: 150px;
+	min-width: 280px;
+	max-width: 350px;
+	margin-left: 0;
 }
 
-#news {
-	float: left;
-	width: 20%;
-	min-width: 115px;
-}
-
-#news .oi2 {
-	min-height: 43px;
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-#content .oi3 {
-	display: block;
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-#content .oi2 {
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-#head {
-	float: left;
-	width: 35%;
-	min-width: 75px;
-}
-
-#detail {
-	float: left;
-	width: 65%;
-	min-width: 75px;
+#search {
+	float: right;
+	min-width: 280px;
+	max-width: 350px;
+	margin-right: 0;
 }

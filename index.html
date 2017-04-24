@@ -10,34 +10,26 @@
 	</head>
 
 	<body>
-		<h1>Fluid Layout</h1>
+		<div id="header">
+			<h1 id="title">Opposing Floats</h1>
+			<div id="search"> <h3>Search:</h3>
+				<form method="post" action="http://www.tipjar.com/cgi-bin/test">
+					<input type="text" value="" name="searchtext" size="32" />
+					<input type="submit" value="Search" name="find" id="find" />
+				</form>
+				<p class="message">This right float shrinks no smaller than its minimum width 
+				and grows no larger than its maximum width.</p>
+			</div>
+			<div class="float-divider"></div>
+		</div>
 
-		<div id="main">
-			<div class="oi1">
-				<h2>main - 100%</h2>
-			</div>
-			<div id="nav">
-				<div class="oi2">
-					<h3>nav - 20%</h3>
-				</div>	
-			</div>
-		
-			<div id="content">
-				<div class="oi2">
-					<h3>content - 60%</h3>
-					<span id="head"><span class="oi3"><em>head - 35%</em> </span></span>
-					<span id="detail"><span class="oi3"> <em>detail - 65%</em> </span></span>
-					<span class="float-divider"></span>
-				</div>
-			
-			</div>
-			
-			<div id="news">
-				<div class="oi2">
-					<h3>news - 20%</h3>
-				</div>
-			</div>
+		<div id="postheader">
+				<p class="breadcrumbs"><a href="#">Home</a> >> Floating Layout</p>
+				<p class="post-msg">Postheader message 1</p>
+			<div class="float-divider"></div>
 
+				<p class="breadcrumbs"><a href="#">Home</a> >> Floating Layout</p>
+				<p class="post-msg">Postheader message 2</p>
 			<div class="float-divider"></div>
 
 		</div>
