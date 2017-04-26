@@ -7,29 +7,36 @@
 		<!--[if lte IE 6]
 			<link rel="stylesheet" href="ie6.css" media="all" type="text/css"/>
 		<![endif]-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/page.js"></script>
 	</head>
 
 	<body>
-		<div id="header">
-			<h1 id="title">Opposing Floats</h1>
-			<div id="search"> <h3>Search:</h3>
-				<form method="post" action="http://www.tipjar.com/cgi-bin/test">
-					<input type="text" value="" name="searchtext" size="32" />
-					<input type="submit" value="Search" name="find" id="find" />
-				</form>
-				<p class="message">This right float shrinks no smaller than its minimum width 
-				and grows no larger than its maximum width.</p>
+		<h1>Event Styling (Rollup)</h1>
+
+		<div id="main">
+			<h2>Main</h2>
+
+			<div id="faq" class="inner">
+				<div>
+					<h3>FAQ</h3>
+					<p>Don't roll me up.</p>
+					<p>QUESTION: How do rollups work?</p>
+				</div>
 			</div>
-			<div class="float-divider"></div>
-		</div>
 
-		<div id="postheader">
-				<p class="breadcrumbs"><a href="#">Home</a> >> Floating Layout</p>
-				<p class="post-msg">Postheader message 1</p>
-			<div class="float-divider"></div>
+			<div id="info" class="inner">
+				<div class="rollup">
+					<h3>Info</h3>
+					<p>List</p>
+					<ul>	
+						<li>list item 1</li>
+						<li>list item 2</li>
+					</ul>
+					<p class="rollup-trigger">Roll me up</p>
+				</div>
+			</div>
 
-				<p class="breadcrumbs"><a href="#">Home</a> >> Floating Layout</p>
-				<p class="post-msg">Postheader message 2</p>
 			<div class="float-divider"></div>
 
 		</div>
