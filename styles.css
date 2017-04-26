@@ -73,5 +73,28 @@ p {
 }
 
 .hidden {
-	visibility: hidden;
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.rollup-trigger {
+	cursor: pointer;
+}
+
+.rollup-trigger:hover {
+	color: firebrick;
+}
+
+span.rollup-trigger {
+	font-size: 0.65em; 
+	padding-left: 8px;
+	background:url("img/red-dot.png") no-repeat left top;
+}
+
+span.rolledup {
+	background:url("alexa-dot.png") no-repeat left top;
 }

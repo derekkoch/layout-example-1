@@ -12,28 +12,34 @@
 	</head>
 
 	<body>
-		<h1>Event Styling (Rollup)</h1>
+		<h1>Rollup</h1>
 
-		<div id="main">
-			<h2>Main</h2>
+		<div id="main" class="rollup">
+			<h2 class="rollup-trigger">Main</h2>
 
-			<div id="faq" class="inner">
+			<div id="faq" class="inner rollup">
 				<div>
-					<h3>FAQ</h3>
-					<p>Don't roll me up.</p>
-					<p>QUESTION: How do rollups work?</p>
+					<h3 class="rollup-trigger">FAQ</h3>
+					Don't roll me up.
+					<dl class="rollup">
+						<dt class="rollup-trigger">QUESTION: How do rollups work?</dt>
+						<dd class="hidden">When the user clicks on a heading or button, 
+						the content rolls up or down.</dd>
+					</dl>
 				</div>
 			</div>
 
-			<div id="info" class="inner">
-				<div class="rollup">
-					<h3>Info</h3>
-					<p>List</p>
-					<ul>	
-						<li>list item 1</li>
-						<li>list item 2</li>
-					</ul>
-					<p class="rollup-trigger">Roll me up</p>
+			<div id="info">
+				<div class="inner rollup">
+					<h3 class="rollup-trigger">Info</h3>
+					<div class="rollup">
+						<p><span class="rollup-trigger">&nbsp;</span>List</p>
+						<ul>	
+							<li>list item 1</li>
+							<li>list item 2</li>
+						</ul>
+						<p class="rollup-trigger">Roll me up</p>
+					</div>
 				</div>
 			</div>
 
