@@ -26,75 +26,62 @@ h3 {
 	margin: 0;
 }
 
-#main {
-	background: gold;
-	max-width: 700px;
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-	padding: 5px;
+ul.tabs a:link, ul.tabs a:visited, ul.tabs a:active {
+	text-decoration: none;
+	color: maroon;
 }
 
-#faq {
+ul.tabs a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+ul.tabs a {
+	display: block;
+}
+
+ul.tabs {
 	float: left;
-	min-width: 400px;
-	max-width: 450px;
-	margin: 0;
-}
-
-#info {
-	float: right;
-	min-width: 280px;
-	max-width: 350px;
-	margin: 0;
-}
-
-.inner {
-	background: lightgray;
-	border-left: 1px solid gray;
-	border-top: 1px solid gray;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-p {
-	font-size: 0.8em;
+	width: 100%;
 	padding: 0;
 	margin: 0;
+	border-bottom: 1px solid gold;
+	margin-bottom: 10px;
 }
 
-.float-divider {
-	clear: both;
-	display: block;
-	height: 1px;
-	font-size: 1px;
-	line-height: 1px;
+ul.tabs li {
+	float: left;
+	width: 25%;
+	list-style-type: none;
 }
 
-.hidden {
-	position: absolute;
-	top: -99999px;
-	left: -99999px;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-}
-
-.rollup-trigger {
+ul.tabs .tab-label {
+	border: 1px solid gold;
+	margin: 0;
 	cursor: pointer;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background: white url("") repeat-x left bottom;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.1em;
 }
 
-.rollup-trigger:hover {
-	color: firebrick;
+
+ul.tabs li.selected .tab-label {
+	position: relative;
+	border-bottom: none;
+	top: 1px;
+	padding-bottom: 4px;
+	padding-top: 5px;
+	border-top: 2px solid gold;
+	margin-top: -5px;
+	background: white url("") repeat-x left top;
+	font-weight: bold; 
 }
 
-span.rollup-trigger {
-	font-size: 0.65em; 
-	padding-left: 8px;
-	background:url("img/red-dot.png") no-repeat left top;
+#main {
+	border: 1px solid gold;
+	border-top: none;
 }
 
-span.rolledup {
-	background:url("alexa-dot.png") no-repeat left top;
-}
