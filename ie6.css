@@ -13,103 +13,111 @@ h1 {
 	margin-bottom: 5px;
 }
 
-h2 {
+h3 {
 	font-size: 1.2em;
 	font-weight: bold;
 	margin: 0;
 }
 
-h3 {
+h4 {
 	font-size: 1em;
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
 
-ul.tabs a:link, ul.tabs a:visited, ul.tabs a:active {
-	text-decoration: none;
-	color: maroon;
-}
-
-ul.tabs a:hover {
-	text-decoration: underline;
-	color: black;
-}
-
-ul.tabs a {
-	display: block;
-}
-
-ul.tabs {
+.menu {
+	float: left;
 	position: relative;
-	float: left;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	border-bottom: 1px solid gold;
-	margin-bottom: 10px;
-}
-
-ul.tabs .tab-content {
-	position: absolute;
-	width: 100%;
-	height: 6em;
-	border: 1px solid gold;
-	border-top: none;
-	left: -99999px;
-	overflow: auto;
-}
-
-ul.tabs li {
-	float: left;
-	width: 25%;
-	list-style-type: none;
-}
-
-ul.tabs .tab-label {
-	border: 1px solid gold;
-	margin: 0;
+	z-index: 1;
 	cursor: pointer;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	background: white url("") repeat-x left bottom;
-	font-weight: normal;
-	text-align: center;
-	font-size: 1.1em;
+	font-size: 0.8em;
+	white-space: nowrap;
 }
 
-ul.tabs li.selected .tab-content {
-	left: 0;
-}
-
-ul.tabs li .oi2 {
-	margin: 10px;
-	padding: 10px;
-}
-
-ul.tabs .tab-label a {
-	display: block;
+.menu a {
 	text-decoration: none;
 	color: black;
 }
 
-ul.tabs .hover, ul.tabs .tab-label:hover {
-	text-decoration: underline;
+..menu h3 {
+	float: left;
+	margin: 0;
+	padding: 1px 5px;
+	background: url("img/red-dot.png") no-repeat left bottom white;
 }
- 
-ul.tabs li.selected .tab-label {
-	position: relative;
-	border-bottom: none;
-	top: 1px;
-	padding-bottom: 4px;
+
+.menu h4 {
+	display: inline;
+	margin: 0;
+}
+
+.menu ul {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	background: url("img/red-dot.png") no-repeat left bottom white;
+}
+
+.menu li {
+	margin: 0;
+	padding: 2px 25px;
+	list-style-type: none;
+	color: black;
+}
+
+.menu li img {
+	margin-left: -22px;
+	padding-right: 5px;
+}
+
+.menu li.separator {
+	margin-top: 5px;
+	border-top: 1px solid gray;
 	padding-top: 5px;
-	border-top: 2px solid gold;
-	margin-top: -5px;
-	background: white url("") repeat-x left top;
-	font-weight: bold; 
 }
 
-#main {
-	border-top: none;
+.menu li.flyout-trigger {
+	background: url("img/red-dot.png") no-repeat right center;
 }
 
+.menu li.flyout-trigger.hover {
+	background: url("img/red-dot.png") no-repeat right center firebrick;
+}
+
+.menu h3.hover {
+	background: url("img/red-dot.png") no-repeat left top white;
+}
+
+.menu li.hover {
+	background-color: firebrick;
+	color: white;
+}
+
+.menu li.hover > a {
+	color: white;
+}
+
+.menu ul.dropdown {
+	top: 100%;
+	clear: left;
+}
+
+.menu ul.submenu {
+	left: 100%;
+	margin-top: -1.5em;
+	margin-left: -0.3em;
+}
+
+.menu .hidden {
+	left: -99999px;
+	top: -99999px;
+}
+
+.menu h3, .menu ul, {
+	border-left: 1px solid yellow;
+	border-right: 1px solid orange;
+	border-top: 1px solid yellow;
+	border-bottom: 1px solid orange;
+}

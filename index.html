@@ -12,34 +12,22 @@
 	</head>
 
 	<body>
-		<h1>Tabs</h1>
-		
-		<div id="main">
-			<ul class="tabs">
-				<li class="selected">
-					<h3 class="tab-label"><a href="">Tab 1</a></h3>
-					<div id="section1" class="tab-content">
-						<div class="oi2">
-							<h4>Tab 1 Content</h4>
-							<p>This is the message of tab 1. More message...</p>
-						
-						</div>
-					
-					</div>
+		<h1>Flyout Menu</h1>
+
+		<div class="menu">
+			<h3>Dropdown</h3>
+
+			<ul class="dropdown hidden">
+				<li><a href="#">menu item</a></li>
+				<li class="separator"><a href="#">menu item</a></li>
 				
-				</li>
-
-				<li>
-					<h3 class="tab-label"><a href="">Tab 2</a></h3>
-					<div id="section2" class="tab-content">
-						<div class="oi2">
-							<h4>Tab 2 Content</h4>
-							<p>This is the message of tab 2.</p>
-
-						</div>
-					
-					</div>
-
+				<li class="flyout-trigger">
+					<h4>submenu</h4>
+					<ul class="submenu hidden">
+						<li><img src="img/award.png" alt="award" /><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				
 				</li>
 
 			</ul>
