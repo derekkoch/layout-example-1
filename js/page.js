@@ -1,23 +1,26 @@
 $(document).ready(function(e) {
-	$('.menu').click(function(e) {
-		$('.dropdown', $(this)).toggleClass('hidden');
+	$('#form1').submit(function(e) {
+		if(!confirm('Are you sure?')){e.preventDefault();}
 	});
-	$('.menu').mouseover(function(e) {
-		$('.dropdown', $(this)).removeClass('hidden');
+	$('#message').click(function(e) {
+		alert('Hi there.');
 	});
-	$('.menu').mouseout(function(e) {
-		$('.dropdown', $(this)).addClass('hidden');
+	$('#button').click(function(e) {
+		alert('How you doing?');
 	});
-	$('.menu li, .menu h3').mouseover(function(e) {
-		$(this).addClass('hover');
+	$('#link').click(function(e) {
+		if(!confirm('Jump here?')){e.preventDefault();}
 	});
-	$('.menu li, .menu h3').mouseout(function(e) {
-		$(this).removeClass('hover');
+	$('#change').click(function(e) {
+		try {
+			var result = prompt('Enter content: ', $(this).text() );
+			if (result) $(this).text(result);
+		} catch(ex){ e.preventDefault(); }
 	});
-	$('.menu li.flyout-trigger').mouseover(function(e) {
-		$('> .submenu', $(this)).removeClass('hidden');
+	$('#submit4').click(function(e) {
+		$('#form1').submit();
 	});
-	$('.menu li.flyout-trigger').mouseout(function(e) {
-		$('> .submenu', $(this)).addClass('hidden');
+	$('#reset2').click(function(e) {
+		$('#form1')[0].reset();
 	});
 });

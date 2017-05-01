@@ -12,28 +12,23 @@
 	</head>
 
 	<body>
-		<h1>Flyout Menu</h1>
+		<h1>Button</h1>
 
-		<div class="menu">
-			<h3>Dropdown</h3>
+		<form id="form1" method="post" actino="http://www.tipjar.com/cgi-bin/test">
+			<input type="text" id="search" name="search" class="search" value="Search" />
+			<input type="submit" id="submit1" name="submit1" value="Submit" />
+			<input type="submit" id="submit2" name="submit3" value="" />
+			<input type="submit" id="submit3" name="submit2" class="button" value="Submit" />
+			<input type="reset" id="reset1" name="reset1" class="button" value="Reset" />
+		</form>
 
-			<ul class="dropdown hidden">
-				<li><a href="#">menu item</a></li>
-				<li class="separator"><a href="#">menu item</a></li>
-				
-				<li class="flyout-trigger">
-					<h4>submenu</h4>
-					<ul class="submenu hidden">
-						<li><img src="img/award.png" alt="award" /><a href="#">menu item</a></li>
-						<li><a href="#">menu item</a></li>
-					</ul>
-				
-				</li>
+		<input type="button" id="message" name="message" class="button" value="Message" />
+		<input type="button" id="submit4" name="submit4" class="button" value="J-Submit" />
+		<input type="button" id="reset2" name="reset2" class="button" value="J-Reset" />
 
-			</ul>
-
-		</div>
-
+		<button id="change" name="change" class="button">Change Me!</button>
+		<a id="link" class="button" href="http://cssdesignpatterns.com">Link</a>
+		
 	</body>
 
 </html>

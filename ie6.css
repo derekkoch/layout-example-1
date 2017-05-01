@@ -13,111 +13,45 @@ h1 {
 	margin-bottom: 5px;
 }
 
-h3 {
-	font-size: 1.2em;
-	font-weight: bold;
-	margin: 0;
+form {
+	margin: 20px 0;
 }
 
-h4 {
+.button {
+	margin: 0;
+	padding: 3px 10px;
 	font-size: 1em;
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
-}
-
-.menu {
-	float: left;
-	position: relative;
-	z-index: 1;
+	color: black;
 	cursor: pointer;
-	font-size: 0.8em;
-	white-space: nowrap;
-}
-
-.menu a {
-	text-decoration: none;
-	color: black;
-}
-
-..menu h3 {
-	float: left;
-	margin: 0;
-	padding: 1px 5px;
-	background: url("img/red-dot.png") no-repeat left bottom white;
-}
-
-.menu h4 {
-	display: inline;
-	margin: 0;
-}
-
-.menu ul {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	padding-bottom: 5px;
-	background: url("img/red-dot.png") no-repeat left bottom white;
-}
-
-.menu li {
-	margin: 0;
-	padding: 2px 25px;
-	list-style-type: none;
-	color: black;
-}
-
-.menu li img {
-	margin-left: -22px;
-	padding-right: 5px;
-}
-
-.menu li.separator {
-	margin-top: 5px;
-	border-top: 1px solid gray;
-	padding-top: 5px;
-}
-
-.menu li.flyout-trigger {
-	background: url("img/red-dot.png") no-repeat right center;
-}
-
-.menu li.flyout-trigger.hover {
-	background: url("img/red-dot.png") no-repeat right center firebrick;
-}
-
-.menu h3.hover {
-	background: url("img/red-dot.png") no-repeat left top white;
-}
-
-.menu li.hover {
-	background-color: firebrick;
-	color: white;
-}
-
-.menu li.hover > a {
-	color: white;
-}
-
-.menu ul.dropdown {
-	top: 100%;
-	clear: left;
-}
-
-.menu ul.submenu {
-	left: 100%;
-	margin-top: -1.5em;
-	margin-left: -0.3em;
-}
-
-.menu .hidden {
-	left: -99999px;
-	top: -99999px;
-}
-
-.menu h3, .menu ul, {
+	background: url("img/g2.jpg") repeat-x left bottom;
 	border-left: 1px solid yellow;
 	border-right: 1px solid orange;
 	border-top: 1px solid yellow;
-	border-bottom: 1px solid orange;
+	border-bottom: 1px solid orange; 
+}
+
+.button:hover, .button.hover {
+	background: lightgray;
+	border-left: 1px solid yellow;
+	border-right: 1px solid orange;
+	border-top: 1px solid yellow;
+	border-bottom: 1px solid orange; 
+}
+
+a.button {
+	padding: 5px 10px;
+	line-height: 2em;
+	text-decoration: none;
+}
+
+#submit2 {
+	width: 32px;
+	height: 32px;
+	border: none;
+	cursor: pointer;
+	background: url("img/g1.jpg") no-repeat center center;
+}
+
+#submit2:hover, #submit2.hover {
+	background-position: 1px 1px;
 }
