@@ -14,9 +14,10 @@ h1 {
 
 h2 {
 	padding: 0;
+	margin: 0;
 }
 
-div {
+*.div {
 	padding: 0;
 	margin: 0;
 }
@@ -28,7 +29,7 @@ div {
 	border-top: 1px solid gray;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
-	padding: 5px;	
+	padding: 10px;	
 }
 
 #postheader, #body, #footer {
