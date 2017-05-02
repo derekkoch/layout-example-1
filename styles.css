@@ -10,48 +10,69 @@ h1 {
 	font-size: 2em;
 	font-weight: bold;
 	padding: 0;
-	margin-bottom: 5px;
 }
 
-form {
-	margin: 20px 0;
+h2 {
+	padding: 0;
 }
 
-.button {
+div {
+	padding: 0;
 	margin: 0;
-	padding: 3px 10px;
-	font-size: 1em;
-	color: black;
-	cursor: pointer;
-	background: url("img/g2.jpg") repeat-x left bottom;
-	border-left: 1px solid yellow;
-	border-right: 1px solid orange;
-	border-top: 1px solid yellow;
-	border-bottom: 1px solid orange; 
 }
 
-.button:hover, .button.hover {
+#header, #body, #footer {
+	height: auto;
 	background: lightgray;
-	border-left: 1px solid yellow;
-	border-right: 1px solid orange;
-	border-top: 1px solid yellow;
-	border-bottom: 1px solid orange; 
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5px;	
 }
 
-a.button {
-	padding: 5px 10px;
-	line-height: 2em;
+#postheader, #body, #footer {
+	margin-bottom: 50px;
+}
+
+a:link, a:visited, a:active {
 	text-decoration: none;
+	color: maroon;
 }
 
-#submit2 {
-	width: 32px;
-	height: 32px;
-	border: none;
-	cursor: pointer;
-	background: url("img/g1.jpg") no-repeat center center;
+a:hover {
+	text-decoration: underline;
+	color: black;
 }
 
-#submit2:hover, #submit2.hover {
-	background-position: 1px 1px;
+.morelink {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: right;
+}
+
+.toplink {
+	font-size: 0.7em;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+.outlink {
+	padding-right: 15px;
+	font-style: italic;
+}
+
+ul {
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	float: left;
+	width: 50%;
+	list-style-type: none;
+	text-align: center;
 }

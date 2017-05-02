@@ -4,6 +4,7 @@
 		<title>Pro HTML and CSS Design Patterns</title>
 		<meta http-equiv="Content-type" content="text/html" charset="UTF-8"/>
 		<link rel="stylesheet" href="styles.css" media="all" type="text/css"/>
+		<script src="https://use.fontawesome.com/02698cb49b.js"></script>
 		<!--[if lte IE 6]
 			<link rel="stylesheet" href="ie6.css" media="all" type="text/css"/>
 		<![endif]-->
@@ -12,23 +13,36 @@
 	</head>
 
 	<body>
-		<h1>Button</h1>
+		<h1>Layout Links</h1>
 
-		<form id="form1" method="post" actino="http://www.tipjar.com/cgi-bin/test">
-			<input type="text" id="search" name="search" class="search" value="Search" />
-			<input type="submit" id="submit1" name="submit1" value="Submit" />
-			<input type="submit" id="submit2" name="submit3" value="" />
-			<input type="submit" id="submit3" name="submit2" class="button" value="Submit" />
-			<input type="reset" id="reset1" name="reset1" class="button" value="Reset" />
-		</form>
+		<div id="preheader"><a class="skipLink" href="#main">Skip to main content</a></div>
+		<div id="header"><h2>header</h2></div>
 
-		<input type="button" id="message" name="message" class="button" value="Message" />
-		<input type="button" id="submit4" name="submit4" class="button" value="J-Submit" />
-		<input type="button" id="reset2" name="reset2" class="button" value="J-Reset" />
+		<div id="postheader">
+			<div class="breadcrumbs">
+				<a href="#">Home</a> >> <a href="#">Layout Links</a> >> Breadcrumbs 
+				<span class="sequential"><a href="#"><< Previous</a>  | <a href="#">Next >></a></span>
+			</div>
+		</div>
 
-		<button id="change" name="change" class="button">Change Me!</button>
-		<a id="link" class="button" href="http://cssdesignpatterns.com">Link</a>
-		
+		<div id="body">
+			<h2>body</h2>
+			<p>Main content goes here. <a class="outlink" href="#">External Link <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+			<p class="morelink"><a href="#">>> More Info</a></p>
+		</div>
+
+		<div id="footer">
+			<h2>footer <a class="toplink" href="#">Top^</a></h2>
+			<ul>	
+				<li>Last Updated on...</li><li>Copyright &copy; 2007</li>
+				<li><a href="#">License</a></li> <li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">About Us</a></li><li><a href="#">Disclaimers</a></li>
+			</ul>
+			<div class="float-divider"></div>
+		</div>
+
+
+
 	</body>
 
 </html>
