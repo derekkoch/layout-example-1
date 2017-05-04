@@ -12,9 +12,22 @@ h1 {
 	padding: 0;
 }
 
-.multi {
-	column-count: 3;
-	-moz-column-count: 3;
-	-webkit-column-count: 3;
-	-ms-column-count: 3;
+#template {
+	display: "ab" "cd" 20% * 20%;
+}
+
+#d {
+	position: a;
+}
+
+#c {
+	position: b;
+}
+
+#b {
+	position: c;
+}
+
+#a {
+	position: d;
 }
