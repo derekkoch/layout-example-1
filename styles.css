@@ -12,22 +12,105 @@ h1 {
 	padding: 0;
 }
 
-#template {
-	display: "ab" "cd" 20% * 20%;
+#preheader {
+	height: 100%;
+	width: 100%;
+	font-size: 0.8em;
+	margin-bottom: 10px;
 }
 
-#d {
-	position: a;
+#header {
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+	font-size: 0.8em;
+	border: 1px solid gray;
+	border-radius: 2px;
+	background: lightgray;
+	background:  -webkit-linear-gradient(darkgray, lightgray);
+	background: -o-linear-gradient(darkgray, lightgray);
+	background: -moz-linear-gradient(darkgray, lightgray);
+	margin-bottom: 4px;
 }
 
-#c {
-	position: b;
+#postheader {
+	height: 100%;
+	width: 100%;
+	font-size: 0.7em;
 }
 
-#b {
-	position: c;
+#postheader .breadcrumbs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 10px;
+	min-width: 180px;
+	max-width: 250px;
 }
 
-#a {
-	position: d;
+#postheader .sequential {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 10px;
+	min-width: 120px;
+	max-width: 400px;
+}
+
+#ph-left {
+	margin: 0;
+	padding: 0;
+	float: left;
+	min-width: 180px;
+	max-width: 250px;
+}
+
+#ph-right {
+	margin: 0;
+	padding: 0;
+	float: right;
+	min-width: 120px;
+	max-width: 400px;
+}
+
+
+#title {
+	margin: 0;
+	padding: 0;
+	float: left;
+	min-width: 200px;
+	max-width: 300px;
+}
+
+#search {
+	margin: 0;
+	padding: 0;
+	float: right;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+.float-divider {
+	clear: both;
+	display: block;
+	height: 1px;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+#body {
+	float: left;
+	width: 100%;
+}
+
+#extras {
+	float: left;
+	width: 25%;
+	min-width: 160px;
+}
+
+#footer {
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
 }
