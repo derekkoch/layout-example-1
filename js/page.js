@@ -1,26 +1,20 @@
 $(document).ready(function(e) {
-	$('#form1').submit(function(e) {
-		if(!confirm('Are you sure?')){e.preventDefault();}
+	$('ul.tabs li').click(function(e) {
+		$('ul.tabs li.selected').removeClass('selected');
+		$(this).addClass('selected');
 	});
-	$('#message').click(function(e) {
-		alert('Hi there.');
+
+	$('ul.tabs li .product-tab').mouseover(function(e) {
+		$(this).addClass('hover');
 	});
-	$('#button').click(function(e) {
-		alert('How you doing?');
+
+	$('ul.tabs li .product-tab').mouseout(function(e) {
+		$(this).removeClass('hover');
 	});
-	$('#link').click(function(e) {
-		if(!confirm('Jump here?')){e.preventDefault();}
+
+	$('ul.tabs .product-tab a').click(function(e) {
+		e.preventDefault();
+		$(this).blur();
 	});
-	$('#change').click(function(e) {
-		try {
-			var result = prompt('Enter content: ', $(this).text() );
-			if (result) $(this).text(result);
-		} catch(ex){ e.preventDefault(); }
-	});
-	$('#submit4').click(function(e) {
-		$('#form1').submit();
-	});
-	$('#reset2').click(function(e) {
-		$('#form1')[0].reset();
-	});
+
 });

@@ -27,6 +27,7 @@
 					<form id="form1">
 						<input type="text" id="search-input" name="search" class="search" />
 						<input type="submit" id="submit" name="submit" value="Search" />
+						<p>Search message</p>
 					</form>
 				</div>
 				<div class="float-divider"></div>
@@ -61,47 +62,56 @@
 				</div>
 
 				<div id="main">
-					<h2>Product 1</h3>
-					<div id="product1">
-						<h3>Product 1 Content</h3>
-						<p class="multi">This is the message of tab 1. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 1. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 1. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.</p>
-					</div>
+					<ul class="tabs">
+						<li class="selected">
+							<h2 class="product-tab"><a href="#">Product 1</a></h2>
+							<div id="product1" class="product-content"> 
+								<h3>Product 1 Content</h3>
+								<p class="multi">This is the message of tab 1. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 1. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 1. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.</p>
+							</div>
+						</li>
 
-					<h2>Product 2</h2>
-					<div id="product2">
-						<h3>Product 2 Content</h3>
-						<p class="multi">This is the message of tab 2. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 2. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 2. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.</p>
-					</div>
+						<li>
+							<h2 class="product-tab"><a href="#">Product 2</a></h2>
+							<div id="product2" class="product-content">
+								<h3>Product 2 Content</h3>
+								<p class="multi">This is the message of tab 2. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 2. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 2. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.</p>
+							</div>
+						</li>
 
-					<h2>Product 3</h2>
-					<div id="product3">
-						<h3>Product 3 Content</h3>
-						<p class="multi">This is the message of tab 3. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 1. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.
-						This is the message of tab 1. More message... I added more to this message to
-						show how the tab automatically displays scrollbars when it exceeds the height and/or
-						width of the tab container. Most of this text is not shown in the book to save room.</p>
-					</div>
+						<li>
+							<h2 class="product-tab"><a href="#">Product 3</a></h2>
+							<div id="product3" class="product-content">
+								<h3>Product 3 Content</h3>
+								<p class="multi">This is the message of tab 3. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 1. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.
+								This is the message of tab 1. More message... I added more to this message to
+								show how the tab automatically displays scrollbars when it exceeds the height and/or
+								width of the tab container. Most of this text is not shown in the book to save room.</p>
+							</div>
+						</li>
+					</ul>
+
 					<div class="float-divider"></div>
 				</div>
 
@@ -122,8 +132,10 @@
 			</div>
 
 			<div id="footer">	
-				apress.com
-				Copyright &copy; 2011 Michael Bowers All Rights Reserved.
+				<div id="footer-text">
+					<span id="site-name">apress.com</span>
+					<span id="copyright">Copyright &copy; 2011 Michael Bowers All Rights Reserved.</span>
+				</div>
 				
 			</div>
 
