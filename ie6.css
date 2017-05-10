@@ -12,22 +12,323 @@ h1 {
 	padding: 0;
 }
 
-#template {
-	display: "ab" "cd" 20% * 20%;
+#preheader {
+	height: 100%;
+	width: 100%;
+	font-size: 0.8em;
+	margin-bottom: 10px;
 }
 
-#d {
-	position: a;
+#header {
+	height: 100%;
+	width: 100%;
+	font-size: 0.8em;
+	border: 1px solid gray;
+	border-radius: 2px;
+	background: lightgray;
+	background:  -webkit-linear-gradient(darkgray, white);
+	background: -o-linear-gradient(darkgray, white);
+	background: -moz-linear-gradient(darkgray, white);
+	margin-bottom: 2px;
 }
 
-#c {
-	position: b;
+#header h3, #header form, #header p {
+	padding: 0;
+	margin: 0;
 }
 
-#b {
-	position: c;
+#header h3 {
+	font-size: 0.9em;
 }
 
-#a {
-	position: d;
+#header p {
+	font-size: 0.8em;
+}
+
+#postheader {
+	height: 100%;
+	width: 100%;
+	font-size: 0.7em;
+}
+
+#breadcrumbs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 5px;
+	min-width: 180px;
+	max-width: 300px;
+}
+
+#sequential {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 5px;
+	min-width: 120px;
+	max-width: 300px;
+}
+
+#ph-left {
+	margin: 0;
+	padding: 0;
+	float: left;
+	min-width: 180px;
+	max-width: 250px;
+}
+
+#ph-right {
+	margin: 0;
+	padding: 0;
+	float: right;
+	min-width: 120px;
+	max-width: 400px;
+}
+
+
+#title {
+	margin: 0;
+	padding: 5px;
+	float: left;
+	min-width: 200px;
+	max-width: 300px;
+}
+
+#search {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	margin-top: 30px;
+	float: right;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+#submit {
+	box-shadow: 1px 1px 1px darkblue;
+	color: white;
+	background: lightblue;
+	background:  -webkit-linear-gradient(darkblue, lightblue);
+	background: -o-linear-gradient(darkblue, lightblue);
+	background: -moz-linear-gradient(darkblue, lightblue);
+}
+
+.menu {
+	font-weight: bold;
+	background: lightgray;
+	border: 1px solid darkgray;
+}
+
+a .menu {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover .menu {
+	background: black;
+	color: white;
+}
+
+.float-divider {
+	clear: both;
+	display: block;
+	height: 1px;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+}
+
+#body {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+}
+
+#nav {
+	float: left;
+	width: 25%;
+	height: 100%;
+	min-width: 160px;
+}
+
+#site-map, #links, #news, #about-us {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	height: 170px;
+}
+
+#links ul li {
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#main {
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 46%;
+	margin-left: 2%;
+	overflow: hidden;
+	min-width: 160px;
+}
+
+#main h2 {
+	font-size: 1.1em;
+}
+
+#main p {
+	font-size: 0.9em;
+}
+
+#main h3 {
+	font-size: 0.9em;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+#main ul.tabs {
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 350px;
+}
+
+#main ul.tabs .product-tab {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	width: 30%;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	background: lightgray;
+	background:  -webkit-linear-gradient(darkgray, white);
+	background: -o-linear-gradient(darkgray, white);
+	background: -moz-linear-gradient(darkgray, white);
+}
+
+#main ul.tabs h2.product-tab a {
+	color: gray;
+}
+
+#main ul.tabs div.product-content {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	border: 1px solid gray;
+	top: 25px;
+	width: 96.25%;
+	height: 324px;
+	border-top: none;
+	left: -99999px; 
+	overflow: auto;
+	color: black;
+}
+
+#main ul.tabs li.selected .product-tab {
+	border: 1px solid gray;
+	border-bottom: none;
+	color: black;
+	background: white;
+	background:  -webkit-linear-gradient(lightgray, white);
+	background: -o-linear-gradient(lightgray, white);
+	background: -moz-linear-gradient(lightgray, white);
+}
+
+#main ul.tabs li.selected h2.product-tab a {
+	color: black;
+}
+
+#main ul.tabs li.selected div.product-content {
+	left: 0;
+}
+
+#main ul.tabs li .oi2 {
+	margin: 10px;
+	padding: 10px;
+}
+
+#main ul.tabs .product-tab a {
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+#main ul.tabs .hover, ul.tabs .product-tab:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.multi {
+	column-count: 2;
+	margin: 10px;
+}
+
+#site-map h3, #links h3, #news h3, #about-us h3 {
+	font-size: 1em;
+	padding: 5px;
+	margin: -1px;
+	border: 1px solid gray;
+	background: lightgray;
+	background:  -webkit-linear-gradient(darkgray, white);
+	background: -o-linear-gradient(darkgray, white);
+	background: -moz-linear-gradient(darkgray, white);
+}
+
+#site-map p, #site-map a, #links p, #links a, #news p, #news a, #about-us p, #about-us a {
+	font-size: 0.8em;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+}
+
+#site-map a, #links a, #news a, #about-us a {
+	position: relative;
+	float: right; 
+	height: 16px;
+	padding: 0;
+	margin: 0;
+	font-size: 0.7em;
+	padding-bottom: 10px;
+	margin-right: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#extras {
+	float: right;
+	width: 25%;
+	height: 100%;
+	min-width: 160px;
+}
+
+#footer {
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#site-name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: auto;
+}
+
+#copyright {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: auto;
 }
